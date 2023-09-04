@@ -1,0 +1,68 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %} Profile {% endblock title %}
+
+{% block content %}
+
+
+<!-- Page content -->
+
+<div class="col-md-7 mx-auto text-center">
+  <div class="row">
+    <div class="col-xl-8 order-xl-8">
+      <div class="card card-profile">
+        <img src="/static/assets/img/theme/str-logo.png" alt="Image placeholder" class="card-img-top" >
+        <div class="row justify-content-center">
+          <div class="col-lg-3 order-lg-2">
+            <div class="card-profile-image">
+              <a href="#">
+                <img src="/static/assets/img/theme/user.png" class="rounded-circle">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
+          
+        </div>
+        <div class="card-body pt-0">
+          <div class="row">
+            <div class="col">
+              <div class="card-profile-stats d-flex justify-content-center">
+                
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <h5 class="h3">
+              {{ request.user.username }}
+            </h5>
+            <div class="h5 font-weight-300">
+              {{ request.user.email }}
+            </div>
+            <div class="h5 mt-4">
+
+              <i class="ni business_briefcase-24 mr-2"></i>
+              {% if request.user.is_superuser %}
+              Admin - STR Advertisement
+              
+              {% else %}
+              Client - STR Advertisement
+              {% endif %}
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  {% include "includes/footer.html" %}
+
+</div>
+
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE --> 
+{% block javascripts %}{% endblock javascripts %}

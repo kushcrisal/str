@@ -1,0 +1,74 @@
+
+
+<nav class="sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white" id="sidenav-main">
+  
+    <!-- Brand -->
+    <div class="sidenav-header  align-items-center">
+      <a class="navbar-brand" href="/">
+        
+        <img src="/static/assets/img/theme/str-logo.png" class="navbar-brand-img" alt="STR" >
+        
+        
+      </a>
+    </div>
+    <div class="navbar-inner">
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="sidenav-collapse-main">
+        <!-- Nav items -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link {% if 'index' in segment %} active {% endif %}" href="/dashboard">
+              <i class="ni ni-tv-2 text-primary"></i>
+              <span class="nav-link-text">Dashboard</span>
+            </a>
+          </li>
+         
+        
+          <li class="nav-item">
+            <a class="nav-link {% if 'profile' in segment %} active {% endif %}" href="/profile.html">
+              <i class="ni ni-single-02 text-yellow"></i>
+              <span class="nav-link-text ">Profile</span>
+            </a>
+          </li>
+         
+          {% if request.user.is_superuser %}
+          <li class="nav-item">
+            <a class="nav-link" href="/admin">
+              <i class="fa fa-user-md text-green"></i>
+              <span class="nav-link-text ">Admin Panel</span>
+            </a>
+          </li>
+          {% endif %}
+          
+          
+          
+          
+          
+        <!--
+      
+          <li class="nav-item">
+            <a class="nav-link" href="/login.html">
+              <i class="fa fa-user-md text-green"></i>
+              <span class="nav-link-text">Admin Panel</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/register.html">
+              <i class="fa fa-user-md text-green"></i>
+              <span class="nav-link-text">Register (template)</span>
+            </a>
+          </li>
+          --> 
+
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'logout' %}">
+              <i class="ni ni-user-run text-red"></i>
+              <span class="nav-link-text">Logout</span>
+            </a>
+          </li>            
+        </ul>
+      
+      </div>
+   
+  </div>
+</nav>
