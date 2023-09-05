@@ -49,11 +49,11 @@ def pages(request):
         html_template = loader.get_template('home/page-500.html')
         return HttpResponse(html_template.render(context, request))
 
-url="rtsp://admin:str@2022@110.34.5.227:554/cam/realmonitor?channel=1&subtype=0"
+url=""
 
 def video_feed():
     # Create a video capture object using the RTSP URL
-    cap = cv2.VideoCapture("rtsp://admin:str@2022@110.34.5.227:554/cam/realmonitor?channel=1&subtype=0")
+    cap = cv2.VideoCapture("")
     try:
         while True:
             # Read the next frame from the video stream
@@ -82,7 +82,7 @@ def stream_video_uwtc(request):
 
 def video_feed2():
     # Create a video capture object using the RTSP URL
-    cap = cv2.VideoCapture("rtsp://admin:str@2022@110.34.5.227:554/cam/realmonitor?channel=1&subtype=0")
+    cap = cv2.VideoCapture("")
 
     while True:
         # Read the next frame from the video stream
